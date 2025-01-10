@@ -1,6 +1,5 @@
 import Label from './Label.jsx'
 import Input from './Input.jsx'
-import Button from '../Button/Button.jsx'
 
 
 
@@ -16,18 +15,25 @@ export function InputForm(props){
     )
 }
 
+
 export function Input_nohp(props){
 
-    const {name, title, children, srcbendera} = props
+    const {name, title, codearea, bendera, placeholder} = props;
+    console.log(bendera);
+    
+
     return(
         <div className="input-no-hp">
             <label htmlFor={name}>{title}</label>
             <div className="no-regional">
                 <div className="bendera">
-                    <img src={srcbendera} alt='bendera' />
+                    <img src={bendera} alt='bendera' />
                 </div>
-
-                <Button>+{children} <img src='./images/Icon/Icon/Icon_arrow.svg' alt="panah" /></Button>
+            
+                <div className="no-hp">
+                    <p>+{codearea}</p>
+                    <img src="./images/Icon/Icon/Icon_arrow.svg" alt="arrow" />
+                </div>
             </div>
 
             <input type={name} placeholder={placeholder} name={name} />

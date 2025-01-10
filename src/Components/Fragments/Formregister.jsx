@@ -1,8 +1,8 @@
-import InputForm from "../Elements/Input/Index";
+// import InputForm from "../Elements/Input/Index";
 import Button from "../Elements/Button/Button";
-import { Input_nohp } from "../Elements/Input/Index";
+import { Input_nohp, InputForm  } from "../Elements/Input/Index";
 
-function FormLogin() {
+function FormRegister() {
 
     return(
     <form action="" className="login-input">
@@ -10,12 +10,12 @@ function FormLogin() {
 
         <InputForm title='E-Mail' name='email' placeholder='' class=''/>
 
-        <Input_nohp name='number' title='No HP' children='+' srcbendera=''/>
+        <Input_nohp name='text' title='No HP' codearea={62} bendera=".images/Icon/Icon/Indonesia.svg" placeholder=''/>
 
         <InputForm title='Kata Sandi' name='password' placeholder='' class=''/>
 
-
-                
+        <InputForm title='Kata Sandi' name='password' placeholder='' class=''/>
+              
         <div className="forgot-password">
             <a href="#">Lupa Password?</a>
         </div>
@@ -28,4 +28,4 @@ function FormLogin() {
     );
 }
 
-export default FormLogin
+export default FormRegister
