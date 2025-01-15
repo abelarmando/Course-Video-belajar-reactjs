@@ -4,12 +4,12 @@ import './index.css'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import Login from './pages/login.jsx'
 import Register from './pages/register.jsx'
-import CardProduct from './Components/Fragments/CardProduct.jsx'
+import Home from './pages/home.jsx'
 
 const router = createBrowserRouter([
   {
     path: '/',
-    element: <Login />
+    element: <Home/>
   },
   {
     path: '/login',
@@ -19,10 +19,7 @@ const router = createBrowserRouter([
     path: '/register',
     element: <Register />
   },
-  {
-    path: '/home',
-    element: <CardProduct/>
-  }
+  
 ])
 
 createRoot(document.getElementById('root')).render(
