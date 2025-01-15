@@ -1,14 +1,15 @@
-import AuthLayouts from "../Layouts/AuthLayouts"
-import FormLogin from "../Components/Fragments/Formlogin"
-import '../CSS/Login.css'
+import AuthLayouts from "../Components/Layouts/AuthLayouts"
+import FormRegister from "../Components/Fragments/Formregister"
 
-function Login() {
+function Register() {
 
     return (
-        <AuthLayouts title='Masuk Ke Akun' keterangan='Yuk, lanjutin belajarmu di videobelajar.'>
-            <FormLogin/>
-        </AuthLayouts>
+        <main className="flex justify-center items-center h-full w-full">
+            <AuthLayouts title='Pendaftaran Akun' keterangan='Yuk, daftarkan akunmu sekarang juga!'>
+                <FormRegister/>
+            </AuthLayouts>
+        </main>
     )
 }
 
-export default Login
+export default Register
