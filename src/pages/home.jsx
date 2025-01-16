@@ -1,3 +1,4 @@
+import BannerHeader from "../Components/Fragments/BannerHeader";
 import CardProduct from "../Components/Fragments/CardProduct";
 
 
@@ -115,10 +116,11 @@ const products = [
 
 function Home() {
     return (
-        <>
-            <div className="flex flex-wrap gap-3">
-                {products.map((product, index) => (
-                    <CardProduct key= {index}>
+        <div className="py-16 px-[120px]">
+            <BannerHeader/>
+            <div className="flex flex-wrap gap-3 items-center w-full">
+                {products.map((product) => (
+                    <CardProduct id= {product.id} >
                         <CardProduct.Header 
                         img={product.imgproduct}/>
                         <CardProduct.Body 
@@ -134,7 +136,7 @@ function Home() {
                 ))}
                 
             </div>
-        </>
+        </div>
     )
 }
 
