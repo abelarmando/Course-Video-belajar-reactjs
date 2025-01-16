@@ -3,7 +3,7 @@
 function CardProduct(props) {
     const {children, id} = props;
     return (
-        <div className="w-96 h-fit p-5 border-[1px] border-[#F1F1F1] rounded-xl bg-white space-y-2" key={id} id={id}>
+        <div className="w-full h-fit p-5 border-[1px] border-[#F1F1F1] rounded-xl bg-white space-y-3" key={id} id={id}>
             
             {children}
                      
@@ -15,14 +15,14 @@ function Header(props) {
     const {img} = props;
 
     return(
-        <img src={img} alt="produk" />
+        <img src={img} alt="produk" className="w-full"/>
     )
 }
 
 function Body(props) {
     const {title, author, position, work, children, imgprofile} = props;
     return(
-        <div>
+        <div className=" space-y-3">
             <h2>{title}</h2>
             <p className="line-clamp-2">{children}</p>
             <div className="flex gap-2">
