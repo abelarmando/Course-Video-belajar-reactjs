@@ -1,9 +1,9 @@
 
 
 function CardProduct(props) {
-    const {children, key} = props;
+    const {children, id} = props;
     return (
-        <div className="w-96 h-fit p-5 border-[1px] border-[#F1F1F1] rounded-xl bg-white space-y-2" key={key}>
+        <div className="w-96 h-fit p-5 border-[1px] border-[#F1F1F1] rounded-xl bg-white space-y-2" key={id} id={id}>
             
             {children}
                      
