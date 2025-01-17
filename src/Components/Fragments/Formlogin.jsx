@@ -1,10 +1,16 @@
 import { InputForm } from "../Elements/Input/Index";
 
 function FormLogin() {
+  const email = localStorage.getItem("email");
+  const password = localStorage.getItem("password");
+  console.log(password);
   const handlelogin = (e) => {
     e.preventDefault();
-    console.log(e.target.email.value);
-    console.log(e.target.password.value);
+    if (e.target.email.value == email && e.target.password.value == password) {
+      window.location.href = "/";
+    } else {
+      alert("Email atau Kata Sandi Salah");
+    }
   };
 
   return (
