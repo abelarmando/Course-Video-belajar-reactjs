@@ -10,6 +10,7 @@ function Login() {
         <AuthLayouts
           title="Masuk Ke Akun"
           keterangan="Yuk, lanjutin belajarmu di videobelajar."
+          masuk="Login"
         >
           <FormLogin />
         </AuthLayouts>

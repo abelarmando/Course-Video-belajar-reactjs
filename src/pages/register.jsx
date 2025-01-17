@@ -10,6 +10,7 @@ function Register() {
         <AuthLayouts
           title="Pendaftaran Akun"
           keterangan="Yuk, daftarkan akunmu sekarang juga!"
+          masuk="Register"
         >
           <FormRegister />
         </AuthLayouts>

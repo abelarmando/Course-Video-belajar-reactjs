@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 
 function AuthLayouts(props) {
-  const { title, keterangan, children } = props;
+  const { title, keterangan, children, masuk } = props;
 
   return (
     <div className="bg-white rounded-md p-9 space-y-5 w-[590px] h-fit flex items-center flex-col border-[#F1F1F1] border-[1px] max-sm:w-80 ">
@@ -12,7 +12,8 @@ function AuthLayouts(props) {
 
       {children}
       <button className="w-full  rounded-md bg-[#E2FCD9CC] text-[#3ECF4C] h-10">
-        <Link to="/register">Daftar</Link>
+        {masuk == "Login" && <Link to="/register">Daftar</Link>}
+        {masuk == "Register" && <Link to="/login">Masuk</Link>}
       </button>
 
       <div className="w-full relative">
