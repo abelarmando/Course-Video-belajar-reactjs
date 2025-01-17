@@ -3,7 +3,7 @@
 import { Input_nohp, InputForm } from "../Elements/Input/Index";
 
 function FormRegister() {
-  const handleclick = (e) => {
+  const handleregister = (e) => {
     e.preventDefault();
     console.log(e.target.password1.value);
     if (e.target.password2.value != e.target.password1.value) {
@@ -13,13 +13,13 @@ function FormRegister() {
       localStorage.setItem("text", e.target.text.value);
       localStorage.setItem("email", e.target.email.value);
       localStorage.setItem("number", e.target.number.value);
-      localStorage.setItem("password", e.target.password.value);
+      localStorage.setItem("password", e.target.password1.value);
       alert("Pendaftaran Berhasil");
       window.location.href = "/login";
     }
   };
   return (
-    <form onSubmit={handleclick} className="w-full">
+    <form onSubmit={handleregister} className="w-full">
       <InputForm
         title="Nama Lengkap"
         name="text"
