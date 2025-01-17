@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 
 
 export function InputForm(props){
@@ -41,6 +42,15 @@ export function Input_nohp(props){
             </div>
 
             
+        </div>
+    )
+}
+
+export function Login(){
+    return(
+        <div className="space-x-5">
+            <button className="bg-[#3ECF4C] rounded-md py-3 px-7 text-white"><Link to="/login">Login</Link></button>
+            <button className="bg-white rounded-md py-3 px-7 border-[1px] border-[#3ECF4C] text-[#3ECF4C]"><Link to="/register">Register</Link></button>
         </div>
     )
 }
