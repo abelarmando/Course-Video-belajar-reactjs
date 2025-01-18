@@ -7,6 +7,7 @@ function FormLogin() {
   const handlelogin = (e) => {
     e.preventDefault();
     if (e.target.email.value == email && e.target.password.value == password) {
+      localStorage.setItem("islogin", true);
       window.location.href = "/";
     } else {
       alert("Email atau Kata Sandi Salah");

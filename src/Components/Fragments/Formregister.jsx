@@ -14,6 +14,7 @@ function FormRegister() {
       localStorage.setItem("email", e.target.email.value);
       localStorage.setItem("number", e.target.number.value);
       localStorage.setItem("password", e.target.password1.value);
+      localStorage.setItem("islogin", false);
       alert("Pendaftaran Berhasil");
       window.location.href = "/login";
     }
