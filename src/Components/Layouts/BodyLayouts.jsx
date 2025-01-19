@@ -1,7 +1,6 @@
 import CardProduct from "../Fragments/CardProduct";
 import Kategori_kelas from "../Fragments/Kategori_kelas";
 import Banner from "../Fragments/Banner";
-import Kategori_kelas from "../Fragments/Kategori_kelas";
 import Products from "../Data/Data.jsx";
 
 function BodyLayouts() {

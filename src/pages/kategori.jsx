@@ -1,5 +1,11 @@
+import KategoriLayouts from "../Components/Layouts/KategoriLayouts";
+
 function Kategori() {
-  return <h1>kategori</h1>;
+  return (
+    <div className="py-16 px-[120px] ">
+      <KategoriLayouts />
+    </div>
+  );
 }
 
 export default Kategori;
