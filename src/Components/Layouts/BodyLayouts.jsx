@@ -114,7 +114,7 @@ const products = [
 ];
 function BodyLayouts() {
   return (
-    <div className="py-16 px-[120px] space-y-16">
+    <div className="py-16 px-[120px] space-y-16 max-md:px-5">
       <Banner img="bg-bannerheaderImg">
         <h1 className="text-4xl">
           Revolusi Pembelajaran: Temukan Ilmu Baru melalui Platform Video
@@ -134,7 +134,9 @@ function BodyLayouts() {
 
       <div className="space-y-8">
         <div className="space-y-3">
-          <h2 className="text-3xl">Koleksi Video Pembelajaran Unggulan</h2>
+          <h2 className="text-3xl max-md:text-2xl">
+            Koleksi Video Pembelajaran Unggulan
+          </h2>
           <p>Jelajahi Dunia Pengetahuan Melalui Pilihan Kami!</p>
         </div>
 
@@ -143,16 +145,18 @@ function BodyLayouts() {
         <div className="grid grid-cols-auto-fill gap-3 w-full ">
           {products.map((product) => (
             <CardProduct id={product.id}>
-              <CardProduct.Header img={product.imgproduct} />
-              <CardProduct.Body
-                title={product.title}
-                author={product.author}
-                position={product.position}
-                work={product.work}
-                imgprofile={product.imgprofile}
-              >
-                {product.text}
-              </CardProduct.Body>
+              <div className=" max-md:flex max-md:gap-3">
+                <CardProduct.Header img={product.imgproduct} />
+                <CardProduct.Body
+                  title={product.title}
+                  author={product.author}
+                  position={product.position}
+                  work={product.work}
+                  imgprofile={product.imgprofile}
+                >
+                  {product.text}
+                </CardProduct.Body>
+              </div>
               <CardProduct.Footer
                 rating={product.rating}
                 price={product.price}
@@ -170,7 +174,7 @@ function BodyLayouts() {
           spesial dari program-program terbaik hariesok.id
         </p>
 
-        <div className="py-2 pl-8 pr-2 bg-white w-96 rounded-md flex justify-between gap-2">
+        <div className="py-2 pl-8 pr-2 bg-white w-96 rounded-md flex justify-between gap-2 max-md:w-full">
           <input
             type="text"
             placeholder="Masukan Emailmu"

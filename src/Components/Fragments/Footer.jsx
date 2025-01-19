@@ -1,8 +1,8 @@
 import { Link } from "react-router-dom";
 function Footer() {
   return (
-    <footer className="py-16 px-32 w-full bg-white h-fit space-y-2 border-t-[1px] border-[#F1F1F1]">
-      <div className="flex justify-between items-center">
+    <footer className="py-16 px-32 w-full bg-white h-fit space-y-2 border-t-[1px] border-[#F1F1F1] max-md:p-5">
+      <div className="flex justify-between  max-md:flex-col">
         <div className=" space-y-4 w-80">
           <img src="./images/Logo_videobelajar.svg" alt="VideoBelajar" />
           <div className="space-y-2">
@@ -14,10 +14,15 @@ function Footer() {
           </div>
         </div>
 
-        <div className="flex gap-12">
-          <div className="space-y-4">
+        <div className="flex gap-12  max-md:flex-col max-md:gap-5 max-md:mt-4">
+          <div className="space-y-4 max-md:flex max-md:justify-between max-md:items-center max-md:space-y-0 ">
             <h1>Kategori</h1>
-            <ul className="space-y-4">
+            <img
+              src="./images/Icon/Icon/Vector.svg"
+              alt="panah"
+              className="hidden h-4 max-md:block "
+            />
+            <ul className="space-y-4 max-md:hidden">
               <li>
                 <Link to="#">Digital & Tekonologi</Link>
               </li>
@@ -36,9 +41,14 @@ function Footer() {
             </ul>
           </div>
 
-          <div className="space-y-4">
+          <div className="space-y-4 max-md:flex max-md:justify-between max-md:items-center max-md:space-y-0">
             <h1>Perusahaan</h1>
-            <ul className="space-y-4">
+            <img
+              src="./images/Icon/Icon/Vector.svg"
+              alt="panah"
+              className="hidden h-4 max-md:block "
+            />
+            <ul className="space-y-4 max-md:hidden">
               <li>
                 <Link to="#">Tentang Kami</Link>
               </li>
@@ -57,9 +67,14 @@ function Footer() {
             </ul>
           </div>
 
-          <div className="space-y-4">
+          <div className="space-y-4 max-md:flex max-md:justify-between max-md:items-center max-md:space-y-0">
             <h1>Komunitas</h1>
-            <ul className="space-y-4">
+            <img
+              src="./images/Icon/Icon/Vector.svg"
+              alt="panah"
+              className="hidden h-4 max-md:block "
+            />
+            <ul className="space-y-4 max-md:hidden">
               <li>
                 <Link to="#">Tips Sukses</Link>
               </li>
@@ -73,7 +88,7 @@ function Footer() {
 
       <hr />
 
-      <div className="flex justify-between">
+      <div className="flex md:justify-between max-md:flex-col-reverse max-md:gap-3">
         <p>©2023 Gerobak Sayur All Rights Reserved.</p>
         <ul className="flex gap-4">
           <li className="rounded-full border-2 h-9 w-9 flex items-center justify-center">
