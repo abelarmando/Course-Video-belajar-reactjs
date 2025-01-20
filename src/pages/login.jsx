@@ -1,6 +1,6 @@
 import AuthLayouts from "../Components/Layouts/AuthLayouts";
 import FormLogin from "../Components/Fragments/Formlogin";
-import Navbar from "../Components/Fragments/Navbar";
+import Navbar from "../Components/Fragments/Navbar/Navbar";
 
 function Login() {
   return (

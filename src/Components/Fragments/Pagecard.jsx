@@ -11,7 +11,7 @@ function Pagecard() {
   const indexOfFirstPost = indexOfLastPost - PostsPerPage;
   const currentPosts = Products.slice(indexOfFirstPost, indexOfLastPost);
   return (
-    <div className="space-y-3">
+    <div className="space-y-3 w-full">
       <div className="grid gap-3 w-full grid-cols-2 max-md:grid-cols-1">
         {currentPosts.map((product) => (
           <CardProduct id={product.id}>

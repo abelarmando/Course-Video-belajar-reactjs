@@ -1,4 +1,4 @@
-import { Login } from "../Elements/Input/Index";
+import { Login } from "../../Elements/Input/Index";
 import NavbarImg from "./NavbarImg";
 
 function Navbarlogin() {
