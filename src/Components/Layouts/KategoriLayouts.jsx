@@ -3,7 +3,7 @@ import Pagecard from "../Fragments/Pagecard";
 
 function KategoriLayouts() {
   return (
-    <div className="flex gap-12">
+    <div className="md:flex gap-12 w-full">
       <FilterKategori />
       <Pagecard />
     </div>

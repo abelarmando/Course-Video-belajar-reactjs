@@ -9,7 +9,13 @@ function Kategori() {
       <Navbar text="Kategori ">
         <Navbarlogin />
       </Navbar>
-      <div className="py-16 px-[120px] ">
+      <div className="py-16 px-[120px] max-md:px-5 max-md:py-7">
+        <div className="mb-5 space-y-2">
+          <h1 className="text-3xl max-md:text-xl">
+            Koleksi Video Pembelajaran Unggulan
+          </h1>
+          <p>Jelajahi Dunia Pengetahuan Melalui Pilihan Kami!</p>
+        </div>
         <KategoriLayouts />
       </div>
       <Footer />
