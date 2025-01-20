@@ -1,7 +1,6 @@
-import { Login } from "../Components/Elements/Input/Index";
 import Footer from "../Components/Fragments/Footer";
-import Navbar from "../Components/Fragments/Navbar";
-import Navbarlogin from "../Components/Fragments/Navbarlogin";
+import Navbar from "../Components/Fragments/Navbar/Navbar";
+import Navbarlogin from "../Components/Fragments/Navbar/Navbarlogin";
 import BodyLayouts from "../Components/Layouts/BodyLayouts";
 
 function Home() {

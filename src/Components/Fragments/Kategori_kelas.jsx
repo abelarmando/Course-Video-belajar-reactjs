@@ -1,8 +1,8 @@
-function Kategori() {
+function Kategori_kelas() {
   return (
     <ul className="flex gap-9 ">
       <li value="Semua Kelas" className="relative text-red-500">
-        <a href="#">Semua Kelas</a>{" "}
+        <a href="#">Semua Kelas</a>
         <span className="absolute w-[50%] h-1 bg-red-500 left-0 bottom-0 translate-y-2 rounded-md "></span>
       </li>
       <li value="Pemasaran">
@@ -21,4 +21,4 @@ function Kategori() {
   );
 }
 
-export default Kategori;
+export default Kategori_kelas;
