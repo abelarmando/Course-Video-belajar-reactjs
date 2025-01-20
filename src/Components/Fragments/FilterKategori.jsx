@@ -19,7 +19,7 @@ function FilterKategori() {
   const [DropMenu3, setDropMenu3] = useState(false);
 
   return (
-    <div className="w-[400px] h-fit border-[1px] border-[#F1F1F1] p-5 rounded-md bg-white space-y-3">
+    <div className="w-[400px] h-fit border-[1px] border-[#F1F1F1] p-5 rounded-md bg-white space-y-3 max-md:w-full mb-4">
       <div className="flex justify-between ">
         <h3>Filter</h3>
         <p className="text-red-500">Reset</p>
@@ -33,13 +33,13 @@ function FilterKategori() {
           <img
             src="./images/Icon/Icon/Pagination/Bottom_Vector.svg"
             alt=""
-            className={DropMenu1 ? "hidden" : "block"}
+            className={DropMenu1 ? "block" : "hidden"}
             onClick={() => setDropMenu1(!DropMenu1)}
           />
           <img
             src="./images/Icon/Icon/Pagination/Up_Vector.svg"
             alt=""
-            className={DropMenu1 ? "block" : "hidden"}
+            className={DropMenu1 ? "hidden" : "block"}
             onClick={() => setDropMenu1(!DropMenu1)}
           />
         </div>
@@ -64,13 +64,13 @@ function FilterKategori() {
           <img
             src="./images/Icon/Icon/Pagination/Bottom_Vector.svg"
             alt=""
-            className={DropMenu2 ? "hidden" : "block"}
+            className={DropMenu2 ? "block" : "hidden"}
             onClick={() => setDropMenu2(!DropMenu2)}
           />
           <img
             src="./images/Icon/Icon/Pagination/Up_Vector.svg"
             alt=""
-            className={DropMenu2 ? "block" : "hidden"}
+            className={DropMenu2 ? "hidden" : "block"}
             onClick={() => setDropMenu2(!DropMenu2)}
           />
         </div>
@@ -95,13 +95,13 @@ function FilterKategori() {
           <img
             src="./images/Icon/Icon/Pagination/Bottom_Vector.svg"
             alt=""
-            className={DropMenu3 ? "hidden" : "block"}
+            className={DropMenu3 ? "block" : "hidden"}
             onClick={() => setDropMenu3(!DropMenu3)}
           />
           <img
             src="./images/Icon/Icon/Pagination/Up_Vector.svg"
             alt=""
-            className={DropMenu3 ? "block" : "hidden"}
+            className={DropMenu3 ? "hidden" : "block"}
             onClick={() => setDropMenu3(!DropMenu3)}
           />
         </div>

@@ -2,6 +2,7 @@ import Pagination from "./Pagination";
 import Products from "../Data/Data";
 import { useState } from "react";
 import CardProduct from "../Fragments/CardProduct";
+import FilterKelas from "./FilterKelas";
 
 function Pagecard() {
   const [CurrentPage, setCurrentPage] = useState(1);
@@ -12,6 +13,7 @@ function Pagecard() {
   const currentPosts = Products.slice(indexOfFirstPost, indexOfLastPost);
   return (
     <div className="space-y-3 w-full">
+      <FilterKelas />
       <div className="grid gap-3 w-full grid-cols-2 max-md:grid-cols-1">
         {currentPosts.map((product) => (
           <CardProduct id={product.id}>
