@@ -6,6 +6,7 @@ import Login from "./pages/login.jsx";
 import Register from "./pages/register.jsx";
 import Home from "./pages/home.jsx";
 import Kategori from "./pages/kategori.jsx";
+import Detailproduk from "./pages/detailproduk.jsx";
 
 const router = createBrowserRouter([
   {
@@ -23,6 +24,10 @@ const router = createBrowserRouter([
   {
     path: "/kategori",
     element: <Kategori />,
+  },
+  {
+    path: "/detailproduk",
+    element: <Detailproduk />,
   },
 ]);
 
