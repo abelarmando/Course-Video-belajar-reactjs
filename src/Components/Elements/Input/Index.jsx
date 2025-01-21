@@ -62,7 +62,7 @@ export function Input_nohp(props) {
 
 export function Login() {
   return (
-    <div className="space-x-5">
+    <div className="space-x-5 max-md:hidden">
       <Link to="/login">
         <button className="bg-[#3ECF4C] rounded-md py-3 px-7 text-white">
           Login

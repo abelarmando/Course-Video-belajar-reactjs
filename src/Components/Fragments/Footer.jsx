@@ -6,7 +6,7 @@ function Footer() {
         <div className=" space-y-4 w-80">
           <img src="./images/Logo_videobelajar.svg" alt="VideoBelajar" />
           <div className="space-y-2">
-            <h3>
+            <h3 className="max-md:text-xl">
               Gali Potensi Anda Melalui Pembelajaran Video di hariesok.id!
             </h3>
             <p>Jl. Usman Effendi No. 50 Lowokwaru, Malang</p>
@@ -16,7 +16,7 @@ function Footer() {
 
         <div className="flex gap-12  max-md:flex-col max-md:gap-5 max-md:mt-4">
           <div className="space-y-4 max-md:flex max-md:justify-between max-md:items-center max-md:space-y-0 ">
-            <h1>Kategori</h1>
+            <h1 className="max-md:text-xl">Kategori</h1>
             <img
               src="./images/Icon/Icon/Vector.svg"
               alt="panah"
@@ -42,7 +42,7 @@ function Footer() {
           </div>
 
           <div className="space-y-4 max-md:flex max-md:justify-between max-md:items-center max-md:space-y-0">
-            <h1>Perusahaan</h1>
+            <h1 className="max-md:text-xl">Perusahaan</h1>
             <img
               src="./images/Icon/Icon/Vector.svg"
               alt="panah"
@@ -68,7 +68,7 @@ function Footer() {
           </div>
 
           <div className="space-y-4 max-md:flex max-md:justify-between max-md:items-center max-md:space-y-0">
-            <h1>Komunitas</h1>
+            <h1 className="max-md:text-xl">Komunitas</h1>
             <img
               src="./images/Icon/Icon/Vector.svg"
               alt="panah"
