@@ -61,7 +61,7 @@ function BodyLayouts() {
       </div>
 
       <Banner
-        img="bg-bannerfooterImg"
+        img="bg-[url('/images/Background_Image/Background_footer.jpg';)]"
         class="w-full h-full bg-[#000000CC] rounded-xl flex flex-col items-center text-center py-20 px-72 space-y-6 text-white max-md:px-5 max-md:py-16"
       >
         <p>NEWSLATER</p>
