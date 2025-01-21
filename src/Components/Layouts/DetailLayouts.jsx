@@ -1,9 +1,15 @@
+import Course_Data from "../Data/Course_Data";
 import Banner from "../Fragments/Banner";
+import Course from "../Fragments/Course";
 import Background_Profile from "../Fragments/Keterangan/Background_Profile";
 import Deskripsi from "../Fragments/Keterangan/Deskripsi";
 import Keterangan_Course from "../Fragments/Keterangan/Keterangan_Course";
+import Products from "../Data/Data";
+import CardProduct from "../Fragments/CardProduct";
 
 function DetailLayouts() {
+  let cardnumber = Math.floor(Math.random() * (Products.length - 2));
+  let randomcard = Products.slice(cardnumber, cardnumber + 3);
   return (
     <div className="space-y-5">
       <p>
@@ -30,8 +36,8 @@ function DetailLayouts() {
         </div>
       </Banner>
 
-      <div className="flex gap-9 w-full">
-        <div className="space-y-5 w-[60%]">
+      <div className="flex gap-9 w-full max-md:flex-col-reverse">
+        <div className="space-y-5 md:w-[60%]">
           <Deskripsi>
             Foundations of User Experience (UX) Design adalah yang pertama dari
             rangkaian tujuh kursus yang akan membekali Anda dengan keterampilan
@@ -47,8 +53,28 @@ function DetailLayouts() {
           </Deskripsi>
 
           <Background_Profile />
+          <Course Course={Course_Data} />
         </div>
         <Keterangan_Course />
+      </div>
+      <div className="grid grid-cols-3 gap-3 max-md:grid-cols-1">
+        {randomcard.map((product) => (
+          <CardProduct id={product.id}>
+            <div className=" max-md:flex max-md:gap-3">
+              <CardProduct.Header img={product.imgproduct} />
+              <CardProduct.Body
+                title={product.title}
+                author={product.author}
+                position={product.position}
+                work={product.work}
+                imgprofile={product.imgprofile}
+              >
+                {product.text}
+              </CardProduct.Body>
+            </div>
+            <CardProduct.Footer rating={product.rating} price={product.price} />
+          </CardProduct>
+        ))}
       </div>
     </div>
   );
