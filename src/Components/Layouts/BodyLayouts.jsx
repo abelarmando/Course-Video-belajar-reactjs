@@ -7,7 +7,7 @@ function BodyLayouts() {
   return (
     <div className="py-16 px-[120px] space-y-16 max-md:px-5">
       <Banner
-        img="bg-[url('/images/Background_Image/Background_banner.jpg');]"
+        img="bg-bannerheaderImg"
         class="w-full h-full bg-[#000000CC] rounded-xl flex flex-col items-center text-center py-20 px-72 space-y-6 text-white max-md:px-5 max-md:py-16"
       >
         <h1 className="text-4xl">
@@ -61,7 +61,7 @@ function BodyLayouts() {
       </div>
 
       <Banner
-        img="bg-[url('/images/Background_Image/Background_footer.jpg';)]"
+        img="bg-bannerfooterImg"
         class="w-full h-full bg-[#000000CC] rounded-xl flex flex-col items-center text-center py-20 px-72 space-y-6 text-white max-md:px-5 max-md:py-16"
       >
         <p>NEWSLATER</p>
