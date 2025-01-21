@@ -4,9 +4,9 @@ function AuthLayouts(props) {
   const { title, keterangan, children, masuk } = props;
 
   return (
-    <div className="bg-white rounded-md p-9 space-y-5 w-[590px] h-fit flex items-center flex-col border-[#F1F1F1] border-[1px] max-sm:w-80 ">
+    <div className="bg-white rounded-md p-9 space-y-5 w-[590px] h-fit flex items-center flex-col border-[#F1F1F1] border-[1px] max-sm:w-80 max-md:w-full">
       <div className="text-center">
-        <h1>{title}</h1>
+        <h1 className="text-2xl">{title}</h1>
         <p>{keterangan}</p>
       </div>
 
