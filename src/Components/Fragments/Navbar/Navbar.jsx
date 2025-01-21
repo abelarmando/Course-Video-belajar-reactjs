@@ -1,5 +1,4 @@
 import { Link } from "react-router-dom";
-import NavbarImg from "./NavbarImg";
 
 function Navbar(props) {
   const { text, children } = props;

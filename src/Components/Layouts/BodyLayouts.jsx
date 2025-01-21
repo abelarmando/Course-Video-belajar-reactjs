@@ -37,8 +37,8 @@ function BodyLayouts() {
         <Kategori_kelas />
 
         <div className="grid grid-cols-auto-fill gap-3 w-full ">
-          {Products.map((product) => (
-            <CardProduct id={product.id}>
+          {Products.map((product, i) => (
+            <CardProduct id={product.id} key={i}>
               <div className=" max-md:flex max-md:gap-3">
                 <CardProduct.Header img={product.imgproduct} />
                 <CardProduct.Body
