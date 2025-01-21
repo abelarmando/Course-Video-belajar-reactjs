@@ -8,6 +8,7 @@ function Home() {
     <>
       <Navbar text="Kategori ">
         <Navbarlogin />
+        <NavbarImg />
       </Navbar>
       <BodyLayouts />
       <Footer />
