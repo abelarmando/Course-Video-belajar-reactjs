@@ -1,6 +1,6 @@
 function Keterangan_Course({ children }) {
   return (
-    <div className="border-[1px] border-[#F1F1F1] rounded-md p-6 bg-white w-[40%] space-y-4">
+    <div className="border-[1px] border-[#F1F1F1] rounded-md p-6 bg-white md:w-[40%] space-y-4 h-fit">
       <h6 className="text-base font-bold">
         Gapai Karier Impianmu sebagai Seorang UI/UX Designer & Product Manager.
       </h6>
