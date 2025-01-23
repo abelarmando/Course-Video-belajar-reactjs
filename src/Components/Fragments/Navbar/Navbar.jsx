@@ -10,7 +10,7 @@ function Navbar(props) {
           <img src="/images/Logo_videobelajar.svg" alt="VideoBelajar" />
         </Link>
         <div className="flex gap-4 items-center">
-          <Link to="#" className="max-md:hidden">
+          <Link to="/kategori" className="max-md:hidden">
             {text}
           </Link>
           {children}
