@@ -26,8 +26,8 @@ function Header(props) {
 function Body(props) {
   const { title, author, position, work, children, imgprofile } = props;
   return (
-    <div className="w-full space-y-3 max-md:flex max-md:flex-col max-md:justify-between ">
-      <h2>{title}</h2>
+    <div className="w-full space-y-3 max-md:flex max-md:flex-col max-md:justify-between md:mt-3">
+      <h4>{title}</h4>
       <p className="line-clamp-2 max-md:hidden">{children}</p>
       <div className="flex gap-2">
         <img src={imgprofile} alt="avatar" className="max-sm:w-10" />
@@ -51,7 +51,7 @@ function Footer(props) {
   return (
     <div className="flex items-center justify-between max-md:col-span-2">
       <div className="flex gap-1 underline underline-offset-2">
-        <img src="./images/Rating.svg" alt="rating" />
+        <img src="/images/Rating.svg" alt="rating" />
         <span>{rating}</span>
       </div>
       <h2 className="text-[#3ECF4C] text-xl">{price}</h2>

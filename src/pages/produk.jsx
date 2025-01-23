@@ -6,7 +6,7 @@ import Footer from "../Components/Fragments/Footer";
 function Produk() {
   return (
     <>
-      <Navbar text="Produk ">
+      <Navbar text="Kategori">
         <Navbarlogin />
       </Navbar>
       <div className="px-[120px] py-16 max-md:px-5 max-md:py-7">

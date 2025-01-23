@@ -17,7 +17,7 @@ function Course({ Course }) {
               {Course.judul}
 
               <img
-                src="./images/Icon/Icon/Pagination/Bottom_Vector.svg"
+                src="/images/Icon/Icon/Pagination/Bottom_Vector_Black.svg"
                 alt="Bawah"
               />
             </p>
@@ -31,10 +31,10 @@ function Course({ Course }) {
             >
               <p>{x}</p>
               <div className="flex gap-2 max-md:hidden">
-                <img src="./images/Icon/Icon/Video.svg" alt="" />
+                <img src="/images/Icon/Icon/Video.svg" alt="" />
                 <p>Video</p>
 
-                <img src="./images/Icon/Icon/Clock.svg" alt="" />
+                <img src="/images/Icon/Icon/Clock.svg" alt="" />
                 <p>12 Menit</p>
               </div>
             </div>
