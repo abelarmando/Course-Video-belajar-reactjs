@@ -21,27 +21,27 @@ function Keterangan_Course({ children }) {
       <h6 className="font-bold ">Kelas Ini Sudah Termasuk</h6>
       <ul className="grid grid-cols-2 gap-5">
         <li className="flex items-center gap-2">
-          <img src="./images/Icon/Icon/Kelas/File_Check.svg" alt="" /> Ujian
+          <img src="/images/Icon/Icon/Kelas/File_Check.svg" alt="" /> Ujian
           Akhir
         </li>
         <li className="flex items-center gap-2">
-          <img src="./images/Icon/Icon/Kelas/Video.svg" alt="" /> 49 Video
+          <img src="/images/Icon/Icon/Kelas/Video.svg" alt="" /> 49 Video
         </li>
         <li className="flex items-center gap-2">
-          <img src="./images/Icon/Icon/Kelas/Book.svg" alt="" /> 7 Dokument
+          <img src="/images/Icon/Icon/Kelas/Book.svg" alt="" /> 7 Dokumen
         </li>
         <li className="flex items-center gap-2">
-          <img src="./images/Icon/Icon/Kelas/File-Certificate.svg" alt="" />{" "}
+          <img src="/images/Icon/Icon/Kelas/File-Certificate.svg" alt="" />{" "}
           Sertifikat
         </li>
         <li className="flex items-center gap-2">
-          <img src="./images/Icon/Icon/Kelas/File_Edit.svg" alt="" /> Preset
+          <img src="/images/Icon/Icon/Kelas/File_Edit.svg" alt="" /> Preset
         </li>
       </ul>
 
       <h6 className="font-bold">Bahasa Pengantar</h6>
       <p className="flex gap-2">
-        <img src="./images/Icon/Icon/World.svg" alt="World" /> Bahasa Indonesia
+        <img src="/images/Icon/Icon/World.svg" alt="World" /> Bahasa Indonesia
       </p>
     </div>
   );

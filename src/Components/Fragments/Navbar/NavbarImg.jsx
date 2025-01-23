@@ -8,7 +8,7 @@ function NavbarImg() {
     <div className="md:relative">
       {isLogin === "true" && (
         <img
-          src="./images/Icon/Avatar/Avatar.svg"
+          src="/images/Icon/Avatar/Avatar.svg"
           alt="Profile Picture"
           onClick={() => setIsclick(!isclick)}
           className="cursor-pointer max-md:hidden"
@@ -16,7 +16,7 @@ function NavbarImg() {
       )}
 
       <img
-        src="./images/Icon/Icon/Burger.svg"
+        src="/images/Icon/Icon/Burger.svg"
         alt="Burger"
         onClick={() => setIsclick(!isclick)}
         className="hidden max-md:block"

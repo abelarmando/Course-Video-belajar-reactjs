@@ -1,11 +1,13 @@
 import Course_Data from "../Data/Course_Data";
 import Banner from "../Fragments/Banner";
 import Course from "../Fragments/Course";
-import Background_Profile from "../Fragments/Keterangan/Background_Profile";
+import Card_Profile from "../Fragments/Keterangan/Card_Profile";
 import Deskripsi from "../Fragments/Keterangan/Deskripsi";
 import Keterangan_Course from "../Fragments/Keterangan/Keterangan_Course";
 import Products from "../Data/Data";
 import CardProduct from "../Fragments/CardProduct";
+import Background_Data from "../Data/Background_Data";
+import Rating_Data from "../Data/Rating_Data";
 
 function DetailLayouts() {
   let cardnumber = Math.floor(Math.random() * (Products.length - 2));
@@ -31,7 +33,7 @@ function DetailLayouts() {
           manapun.
         </p>
         <div className="flex gap-1 underline underline-offset-2">
-          <img src="./images/Rating.svg" alt="rating" />
+          <img src="/images/Rating.svg" alt="rating" />
           <span>3.5 (86)</span>
         </div>
       </Banner>
@@ -52,11 +54,17 @@ function DetailLayouts() {
             untuk mendapatkan umpan balik.
           </Deskripsi>
 
-          <Background_Profile />
+          <Card_Profile
+            Data={Background_Data}
+            title="Belajar bersama Tutor Profeisonal"
+          />
           <Course Course={Course_Data} />
+          <Card_Profile Data={Rating_Data} title="Rating dan Review" />
         </div>
         <Keterangan_Course />
       </div>
+      <h3>Video Pembelajaran Terkait Lainnya</h3>
+      <p>Ekspansi Pengetahuan Anda dengan Rekomendasi Spesial Kami!</p>
       <div className="grid grid-cols-3 gap-3 max-md:grid-cols-1">
         {randomcard.map((product) => (
           <CardProduct id={product.id}>

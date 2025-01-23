@@ -8,8 +8,8 @@ const Products = [
     work: "Gojek",
     rating: "3.5 (86)",
     price: "Rp 300k",
-    imgproduct: "./images/Icon/Product/Product-01.svg",
-    imgprofile: "./images/Icon/Avatar/Avatar-1.svg",
+    imgproduct: "/images/Icon/Product/Product-01.svg",
+    imgprofile: "/images/Icon/Avatar/Avatar-1.svg",
   },
   {
     id: 2,
@@ -20,8 +20,8 @@ const Products = [
     work: "Gojek",
     rating: "3.5 (86)",
     price: "Rp 300k",
-    imgproduct: "./images/Icon/Product/Product-02.svg",
-    imgprofile: "./images/Icon/Avatar/Avatar-2.svg",
+    imgproduct: "/images/Icon/Product/Product-02.svg",
+    imgprofile: "/images/Icon/Avatar/Avatar-2.svg",
   },
   {
     id: 3,
@@ -32,8 +32,8 @@ const Products = [
     work: "Gojek",
     rating: "3.5 (86)",
     price: "Rp 300k",
-    imgproduct: "./images/Icon/Product/Product-03.svg",
-    imgprofile: "./images/Icon/Avatar/Avatar-3.svg",
+    imgproduct: "/images/Icon/Product/Product-03.svg",
+    imgprofile: "/images/Icon/Avatar/Avatar-3.svg",
   },
   {
     id: 4,
@@ -44,8 +44,8 @@ const Products = [
     work: "Gojek",
     rating: "3.5 (86)",
     price: "Rp 300k",
-    imgproduct: "./images/Icon/Product/Product-04.svg",
-    imgprofile: "./images/Icon/Avatar/Avatar-4.svg",
+    imgproduct: "/images/Icon/Product/Product-04.svg",
+    imgprofile: "/images/Icon/Avatar/Avatar-4.svg",
   },
   {
     id: 5,
@@ -56,8 +56,8 @@ const Products = [
     work: "Gojek",
     rating: "3.5 (86)",
     price: "Rp 300k",
-    imgproduct: "./images/Icon/Product/Product-05.svg",
-    imgprofile: "./images/Icon/Avatar/Avatar-5.svg",
+    imgproduct: "/images/Icon/Product/Product-05.svg",
+    imgprofile: "/images/Icon/Avatar/Avatar-5.svg",
   },
   {
     id: 6,
@@ -68,8 +68,8 @@ const Products = [
     work: "Gojek",
     rating: "3.5 (86)",
     price: "Rp 300k",
-    imgproduct: "./images/Icon/Product/Product-06.svg",
-    imgprofile: "./images/Icon/Avatar/Avatar-6.svg",
+    imgproduct: "/images/Icon/Product/Product-06.svg",
+    imgprofile: "/images/Icon/Avatar/Avatar-6.svg",
   },
   {
     id: 7,
@@ -80,8 +80,8 @@ const Products = [
     work: "Gojek",
     rating: "3.5 (86)",
     price: "Rp 300k",
-    imgproduct: "./images/Icon/Product/Product-07.svg",
-    imgprofile: "./images/Icon/Avatar/Avatar-7.svg",
+    imgproduct: "/images/Icon/Product/Product-07.svg",
+    imgprofile: "/images/Icon/Avatar/Avatar-7.svg",
   },
   {
     id: 8,
@@ -92,8 +92,8 @@ const Products = [
     work: "Gojek",
     rating: "3.5 (86)",
     price: "Rp 300k",
-    imgproduct: "./images/Icon/Product/Product-08.svg",
-    imgprofile: "./images/Icon/Avatar/Avatar-8.svg",
+    imgproduct: "/images/Icon/Product/Product-08.svg",
+    imgprofile: "/images/Icon/Avatar/Avatar-8.svg",
   },
   {
     id: 9,
@@ -104,8 +104,8 @@ const Products = [
     work: "Gojek",
     rating: "3.5 (86)",
     price: "Rp 300k",
-    imgproduct: "./images/Icon/Product/Product-09.svg",
-    imgprofile: "./images/Icon/Avatar/Avatar-9.svg",
+    imgproduct: "/images/Icon/Product/Product-09.svg",
+    imgprofile: "/images/Icon/Avatar/Avatar-9.svg",
   },
 ];
 
