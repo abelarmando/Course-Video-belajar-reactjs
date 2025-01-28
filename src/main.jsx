@@ -7,6 +7,7 @@ import Register from "./pages/register.jsx";
 import Home from "./pages/home.jsx";
 import Kategori from "./pages/kategori.jsx";
 import Produk from "./pages/produk.jsx";
+import Metode from "./pages/Metode.jsx";
 
 const router = createBrowserRouter([
   {
@@ -26,8 +27,12 @@ const router = createBrowserRouter([
     element: <Kategori />,
   },
   {
-    path: "/produk",
+    path: "/produk/:id",
     element: <Produk />,
+  },
+  {
+    path: "/metode",
+    element: <Metode />,
   },
 ]);
 

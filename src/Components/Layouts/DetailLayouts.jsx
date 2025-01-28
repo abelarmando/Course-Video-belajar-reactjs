@@ -1,4 +1,4 @@
-import Course_Data from "../Data/Course_Data";
+// import Course_Data from "../Data/Course_Data";
 import Banner from "../Fragments/Banner";
 import Course from "../Fragments/Course";
 import Card_Profile from "../Fragments/Keterangan/Card_Profile";
@@ -6,60 +6,39 @@ import Deskripsi from "../Fragments/Keterangan/Deskripsi";
 import Keterangan_Course from "../Fragments/Keterangan/Keterangan_Course";
 import Products from "../Data/Data";
 import CardProduct from "../Fragments/CardProduct";
-import Background_Data from "../Data/Background_Data";
-import Rating_Data from "../Data/Rating_Data";
 
-function DetailLayouts() {
-  let cardnumber = Math.floor(Math.random() * (Products.length - 2));
-  let randomcard = Products.slice(cardnumber, cardnumber + 3);
+function DetailLayouts({ newProducts }) {
+  const newdata = Products.filter((item) => item.id !== newProducts.id);
+  let cardnumber = Math.floor(Math.random() * (Products.length - 3));
+  let randomcard = newdata.slice(cardnumber, cardnumber + 3);
   return (
     <div className="space-y-5">
       <p>
         Beranda / Desain /{" "}
-        <span className="font-[600]">
-          Gapai Karier Impianmu sebagai Seorang UI/UX Designer & Product Manager
-        </span>
+        <span className="font-[600]">{newProducts.titlepage}</span>
       </p>
       <Banner
         img="bg-bannerheaderImg"
         class="w-full h-full bg-[#000000CC] rounded-xl pt-20 pb-16 px-24 space-y-6 text-white max-md:px-5 max-md:py-16"
       >
-        <h1>
-          Gapai Karier Impianmu sebagai Seorang UI/UX Designer & Product
-          Manager.
-        </h1>
-        <p>
-          Belajar bersama tutor profesional di Video Course. Kapanpun, di
-          manapun.
-        </p>
+        <h1>{newProducts.titlepage}</h1>
+        <p>{newProducts.textpage}</p>
         <div className="flex gap-1 underline underline-offset-2">
           <img src="/images/Rating.svg" alt="rating" />
-          <span>3.5 (86)</span>
+          <span>{newProducts.rating}</span>
         </div>
       </Banner>
 
       <div className="flex gap-9 w-full max-md:flex-col-reverse">
         <div className="space-y-5 md:w-[60%]">
-          <Deskripsi>
-            Foundations of User Experience (UX) Design adalah yang pertama dari
-            rangkaian tujuh kursus yang akan membekali Anda dengan keterampilan
-            yang dibutuhkan untuk melamar pekerjaan tingkat pemula dalam desain
-            pengalaman pengguna. Desainer UX fokus pada interaksi yang dilakukan
-            orang dengan produk seperti situs web, aplikasi seluler, dan objek
-            fisik. Desainer UX membuat interaksi sehari-hari itu dapat
-            digunakan, menyenangkan, dan dapat diakses. Peran seorang desainer
-            UX tingkat pemula mungkin termasuk berempati dengan pengguna,
-            menentukan poin rasa sakit mereka, memunculkan ide untuk solusi
-            desain, membuat wireframe, prototipe, dan maket, dan menguji desain
-            untuk mendapatkan umpan balik.
-          </Deskripsi>
+          <Deskripsi>{newProducts.description}</Deskripsi>
 
           <Card_Profile
-            Data={Background_Data}
+            Data={newProducts.background}
             title="Belajar bersama Tutor Profeisonal"
           />
-          <Course Course={Course_Data} />
-          <Card_Profile Data={Rating_Data} title="Rating dan Review" />
+          <Course Course={newProducts.course} />
+          <Card_Profile Data={newProducts.review} title="Rating dan Review" />
         </div>
         <Keterangan_Course />
       </div>

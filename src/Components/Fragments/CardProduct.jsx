@@ -1,13 +1,17 @@
+import { Link } from "react-router-dom";
+
 function CardProduct(props) {
   const { children, id } = props;
   return (
-    <div
-      className="w-full h-fit p-5 border-[1px] border-[#F1F1F1] rounded-xl bg-white max-md:space-y-3"
-      key={id}
-      id={id}
-    >
-      {children}
-    </div>
+    <Link to={`/produk/${id}`}>
+      <div
+        className="w-full h-fit p-5 border-[1px] border-[#F1F1F1] rounded-xl bg-white max-md:space-y-3"
+        key={id}
+        id={id}
+      >
+        {children}
+      </div>
+    </Link>
   );
 }
 

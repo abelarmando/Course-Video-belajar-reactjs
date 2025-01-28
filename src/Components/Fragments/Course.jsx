@@ -1,10 +1,13 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 
 function Course({ Course }) {
-  const [x, setx] = useState(true);
+  const [x, setx] = useState();
+  useEffect(() => {
+    setx(Course);
+  }, [x]);
+
   const handleclick = (i) => {
-    setx(!x);
-    Course[i].isClicked = !Course[i].isClicked;
+    setx((x[i].isClicked = !x[i].isClicked));
   };
 
   return (

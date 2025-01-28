@@ -2,7 +2,7 @@ import CardProduct from "../Fragments/CardProduct";
 import Kategori_kelas from "../Fragments/Kategori_kelas";
 import Banner from "../Fragments/Banner";
 import Products from "../Data/Data.jsx";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 
 function BodyLayouts() {
   return (
@@ -39,26 +39,24 @@ function BodyLayouts() {
 
         <div className="grid grid-cols-auto-fill gap-3 w-full ">
           {Products.map((product, i) => (
-            <Link to="/produk">
-              <CardProduct id={product.id} key={i}>
-                <div className=" max-md:flex max-md:gap-3">
-                  <CardProduct.Header img={product.imgproduct} />
-                  <CardProduct.Body
-                    title={product.title}
-                    author={product.author}
-                    position={product.position}
-                    work={product.work}
-                    imgprofile={product.imgprofile}
-                  >
-                    {product.text}
-                  </CardProduct.Body>
-                </div>
-                <CardProduct.Footer
-                  rating={product.rating}
-                  price={product.price}
-                />
-              </CardProduct>
-            </Link>
+            <CardProduct id={product.id} key={i}>
+              <div className=" max-md:flex max-md:gap-3">
+                <CardProduct.Header img={product.imgproduct} />
+                <CardProduct.Body
+                  title={product.title}
+                  author={product.author}
+                  position={product.position}
+                  work={product.work}
+                  imgprofile={product.imgprofile}
+                >
+                  {product.text}
+                </CardProduct.Body>
+              </div>
+              <CardProduct.Footer
+                rating={product.rating}
+                price={product.price}
+              />
+            </CardProduct>
           ))}
         </div>
       </div>
