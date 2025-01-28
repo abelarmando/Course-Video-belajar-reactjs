@@ -4,7 +4,7 @@ import Course from "../Fragments/Course";
 import Card_Profile from "../Fragments/Keterangan/Card_Profile";
 import Deskripsi from "../Fragments/Keterangan/Deskripsi";
 import Keterangan_Course from "../Fragments/Keterangan/Keterangan_Course";
-import Products from "../Data/Data";
+import { Products } from "../Data/Data";
 import CardProduct from "../Fragments/CardProduct";
 
 function DetailLayouts({ newProducts }) {

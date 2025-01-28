@@ -3,7 +3,7 @@ import Navbar from "../Components/Fragments/Navbar/Navbar";
 import Navbarlogin from "../Components/Fragments/Navbar/Navbarlogin";
 import Footer from "../Components/Fragments/Footer";
 import { useParams } from "react-router-dom";
-import Products from "../Components/Data/Data.jsx";
+import { Products } from "../Components/Data/Data.jsx";
 import { useEffect } from "react";
 import { useState } from "react";
 
