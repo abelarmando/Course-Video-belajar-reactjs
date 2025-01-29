@@ -8,6 +8,7 @@ export const Products = [
     work: "Gojek",
     rating: "3.5 (86)",
     price: "Rp 300k",
+    tagprice: 300000,
     imgproduct: "/images/Icon/Product/Product-01.svg",
     imgprofile: "/images/Icon/Avatar/Avatar-1.svg",
     titlepage:
@@ -1179,7 +1180,7 @@ export const Banks = [
     id: 9,
     name: " ",
     value: "kartukredit",
-    type: "kartukredit",
+    type: "kredit",
     img1: "/images/Icon/Icon/Bank/MasterCard.svg",
     img2: "/images/Icon/Icon/Bank/VISA.svg",
     img3: "/images/Icon/Icon/Bank/JCB.svg",

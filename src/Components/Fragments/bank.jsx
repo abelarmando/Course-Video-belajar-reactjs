@@ -1,9 +1,9 @@
-function Bank({ children, id, title, img }) {
+function Bank({ children, id, title, img, setnewid }) {
   return (
     <li
       className="flex justify-between items-center border-[1px] border-[#F1F1F1] rounded-md p-3"
-      onClick={() => console.log(id)}
       key={id}
+      onClick={() => setnewid(id - 1)}
     >
       <label className="flex gap-2">
         <img src={img} alt="bca" />
