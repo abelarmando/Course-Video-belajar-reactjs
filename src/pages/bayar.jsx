@@ -7,6 +7,7 @@ function Bayar() {
       <div>
         <p>halo</p>
         <p>halo</p>
+        <p>aaa</p>
       </div>
     </>
   );
