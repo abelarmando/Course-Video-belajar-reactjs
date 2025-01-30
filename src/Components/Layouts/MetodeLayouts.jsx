@@ -25,7 +25,7 @@ function MetodeLayouts({ id }) {
         {
           id: noinvoice,
           invoice: `HEL/VI/${noinvoice}`,
-          product: id - 1,
+          productnum: id - 1,
           pembayaran: checkbox[newid].value,
           time: new Date().toLocaleString(),
           tenggat: new Date(
@@ -34,7 +34,7 @@ function MetodeLayouts({ id }) {
         },
       ]);
       setnoinvoice((prev) => prev + 1);
-      window.location.href = `/bayar/${newid}`;
+      window.location.href = `/bayar/${noinvoice}`;
     }
   };
   saveToLocalStorage("cart", cart);
