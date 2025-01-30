@@ -2,8 +2,9 @@ import { useEffect, useState } from "react";
 import Bank from "../Fragments/bank";
 import { Banks, Products } from "../Data/Data";
 import Ringkasan_Pesanan from "../Fragments/Ringkasan_Pesanan";
+import Keterangan_Course from "../Fragments/Keterangan/Keterangan_Course";
 
-function MetodeLayouts() {
+function MetodeLayouts({ id }) {
   const [atm] = useState(Banks.filter((item) => item.type === "atm"));
   const [checkbox, setcheckbox] = useState({});
   const [newid, setnewid] = useState();
@@ -21,12 +22,18 @@ function MetodeLayouts() {
     }
   }, [newid]);
 
+  const handlesubmit = (e) => {
+    e.preventDefault();
+    console.log(checkbox[newid].value);
+    // windows.location.href = `/bayar/${checkbox[newid].value}/${id}`;
+  };
+
   return (
-    <div>
-      <div>
+    <div className="flex gap-4 w-full max-md:flex-col-reverse">
+      <div className="md:w-[60%]">
         <form
-          onSubmit={(e) => e.preventDefault()}
-          className="space-y-9"
+          onSubmit={(e) => handlesubmit(e)}
+          className="space-y-4"
           aria-required="true"
         >
           <div className="border-[1px] border-[#F1F1F1] rounded-md p-5 bg-white ">
@@ -41,13 +48,13 @@ function MetodeLayouts() {
                   alt="a"
                 />
               </li>
-              {atm.map((x, i) => (
+              {atm.map((x) => (
                 <Bank
                   id={x.id}
                   title={x.name}
                   img={x.img}
-                  key={i}
                   setnewid={setnewid}
+                  value={x.value}
                 />
               ))}
               <li className="flex justify-between items-center border-[1px] border-[#F1F1F1] rounded-md p-3">
@@ -58,13 +65,13 @@ function MetodeLayouts() {
                   alt="a"
                 />
               </li>
-              {digital.map((x, i) => (
+              {digital.map((x) => (
                 <Bank
                   id={x.id}
                   title={x.name}
                   img={x.img}
-                  key={i}
                   setnewid={setnewid}
+                  value={x.value}
                 />
               ))}
               <li className="flex justify-between items-center border-[1px] border-[#F1F1F1] rounded-md p-3">
@@ -76,21 +83,24 @@ function MetodeLayouts() {
                   alt="a"
                 />
               </li>
-              {kredit.map((x, i) => (
+              {kredit.map((x) => (
                 <Bank
                   id={x.id}
                   title={x.name}
                   img={x.img1}
-                  key={i}
                   setnewid={setnewid}
+                  value={x.value}
                 >
                   <img src={x.img2} alt="" /> <img src={x.img3} alt="" />
                 </Bank>
               ))}
             </ul>
           </div>
-          <Ringkasan_Pesanan data={Products[0]} />
+          <Ringkasan_Pesanan data={Products[id - 1]} />
         </form>
+      </div>
+      <div className="md:w-[40%]">
+        <Keterangan_Course data={Products[id - 1]} />
       </div>
     </div>
   );

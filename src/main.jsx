@@ -31,7 +31,7 @@ const router = createBrowserRouter([
     element: <Produk />,
   },
   {
-    path: "/metode",
+    path: "/metode/:id",
     element: <Metode />,
   },
 ]);

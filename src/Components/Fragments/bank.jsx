@@ -1,4 +1,4 @@
-function Bank({ children, id, title, img, setnewid }) {
+function Bank({ children, id, title, img, setnewid, value }) {
   return (
     <li
       className="flex justify-between items-center border-[1px] border-[#F1F1F1] rounded-md p-3"
@@ -13,6 +13,7 @@ function Bank({ children, id, title, img, setnewid }) {
       <input
         id={id}
         type="checkbox"
+        value={value}
         className="appearance-none w-6 h-6 checked:bg-[url('/images/Icon/Icon/Bank/Checked.svg');] checked:bg-no-repeat checked:bg-cover "
       />
     </li>
