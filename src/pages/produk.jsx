@@ -9,6 +9,7 @@ import { useState } from "react";
 
 function Produk() {
   const { id } = useParams();
+  const [Newdata] = useState(Products.find((item) => item.id == id));
 
   return (
     <>

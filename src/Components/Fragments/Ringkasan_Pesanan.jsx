@@ -7,7 +7,7 @@ function Ringkasan_Pesanan({ data }) {
     <div className="border-[1px] border-[#F1F1F1] rounded-md p-6 bg-white space-y-2">
       <h3>Ringkasan Pesanan</h3>
       <div className="flex justify-between">
-        <p className="font-light ">{data.titlepage}</p>
+        <p className="font-light w-1/2 ">{data.titlepage}</p>
         <p className="">Rp {Rupiah.format(data.tagprice)}</p>
       </div>
       <div className="flex justify-between">
