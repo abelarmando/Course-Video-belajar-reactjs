@@ -1,4 +1,4 @@
-const Products = [
+export const Products = [
   {
     id: 1,
     author: "Jenna Ortega",
@@ -8,6 +8,7 @@ const Products = [
     work: "Gojek",
     rating: "3.5 (86)",
     price: "Rp 300k",
+    tagprice: 300000,
     imgproduct: "/images/Icon/Product/Product-01.svg",
     imgprofile: "/images/Icon/Avatar/Avatar-1.svg",
     titlepage:
@@ -97,6 +98,34 @@ const Products = [
         rating: "3.5",
       },
     ],
+    courseinclude: [
+      {
+        title: "Ujian Akhir",
+        img: "/images/Icon/Icon/Kelas/File_Check.svg",
+      },
+      {
+        title: "49 Video",
+        img: "/images/Icon/Icon/Kelas/Video.svg",
+      },
+      {
+        title: "7 Dokumen",
+        img: "/images/Icon/Icon/Kelas/Book.svg",
+      },
+      {
+        title: "Sertifikat",
+        img: "/images/Icon/Icon/Kelas/File-Certificate.svg",
+      },
+      {
+        title: "Preset",
+        img: "/images/Icon/Icon/Kelas/File_Edit.svg",
+      },
+    ],
+    courselanguage: [
+      {
+        title: "Bahasa Indonesia",
+        img: "/images/Icon/Icon/World.svg",
+      },
+    ],
   },
   {
     id: 2,
@@ -107,14 +136,13 @@ const Products = [
     work: "Gojek",
     rating: "3.5 (86)",
     price: "Rp 300k",
+    tagprice: 300000,
     imgproduct: "/images/Icon/Product/Product-02.svg",
     imgprofile: "/images/Icon/Avatar/Avatar-2.svg",
-
     titlepage:
       "Gapai Karier Impianmu sebagai Seorang UI/UX Designer & Product Manager.",
     textpage:
       "Belajar bersama tutor profesional di Video Course. Kapanpun, di manapun.",
-
     description:
       "Foundations of User Experience (UX) Design adalah yang pertama dari rangkaian tujuh kursus yang akan membekali Anda dengan keterampilan yang dibutuhkan untuk melamar pekerjaan tingkat pemula dalam desain pengalaman pengguna. Desainer UX fokus pada interaksi yang dilakukan orang dengan produk seperti situs web, aplikasi seluler, dan objek fisik. Desainer UX membuat interaksi sehari-hari itu dapat digunakan, menyenangkan, dan dapat diakses. Peran seorang desainer UX tingkat pemula mungkin termasuk berempati dengan pengguna, menentukan poin rasa sakit mereka, memunculkan ide untuk solusi desain, membuat wireframe, prototipe, dan maket, dan menguji desain untuk mendapatkan umpan balik.",
     background: [
@@ -198,6 +226,34 @@ const Products = [
         rating: "3.5",
       },
     ],
+    courseinclude: [
+      {
+        title: "Ujian Akhir",
+        img: "/images/Icon/Icon/Kelas/File_Check.svg",
+      },
+      {
+        title: "49 Video",
+        img: "/images/Icon/Icon/Kelas/Video.svg",
+      },
+      {
+        title: "7 Dokumen",
+        img: "/images/Icon/Icon/Kelas/Book.svg",
+      },
+      {
+        title: "Sertifikat",
+        img: "/images/Icon/Icon/Kelas/File-Certificate.svg",
+      },
+      {
+        title: "Preset",
+        img: "/images/Icon/Icon/Kelas/File_Edit.svg",
+      },
+    ],
+    courselanguage: [
+      {
+        title: "Bahasa Indonesia",
+        img: "/images/Icon/Icon/World.svg",
+      },
+    ],
   },
   {
     id: 3,
@@ -208,6 +264,7 @@ const Products = [
     work: "Gojek",
     rating: "3.5 (86)",
     price: "Rp 300k",
+    tagprice: 300000,
     imgproduct: "/images/Icon/Product/Product-03.svg",
     imgprofile: "/images/Icon/Avatar/Avatar-3.svg",
     titlepage:
@@ -297,6 +354,34 @@ const Products = [
         rating: "3.5",
       },
     ],
+    courseinclude: [
+      {
+        title: "Ujian Akhir",
+        img: "/images/Icon/Icon/Kelas/File_Check.svg",
+      },
+      {
+        title: "49 Video",
+        img: "/images/Icon/Icon/Kelas/Video.svg",
+      },
+      {
+        title: "7 Dokumen",
+        img: "/images/Icon/Icon/Kelas/Book.svg",
+      },
+      {
+        title: "Sertifikat",
+        img: "/images/Icon/Icon/Kelas/File-Certificate.svg",
+      },
+      {
+        title: "Preset",
+        img: "/images/Icon/Icon/Kelas/File_Edit.svg",
+      },
+    ],
+    courselanguage: [
+      {
+        title: "Bahasa Indonesia",
+        img: "/images/Icon/Icon/World.svg",
+      },
+    ],
   },
   {
     id: 4,
@@ -307,6 +392,7 @@ const Products = [
     work: "Gojek",
     rating: "3.5 (86)",
     price: "Rp 300k",
+    tagprice: 300000,
     imgproduct: "/images/Icon/Product/Product-04.svg",
     imgprofile: "/images/Icon/Avatar/Avatar-4.svg",
     titlepage:
@@ -396,6 +482,34 @@ const Products = [
         rating: "3.5",
       },
     ],
+    courseinclude: [
+      {
+        title: "Ujian Akhir",
+        img: "/images/Icon/Icon/Kelas/File_Check.svg",
+      },
+      {
+        title: "49 Video",
+        img: "/images/Icon/Icon/Kelas/Video.svg",
+      },
+      {
+        title: "7 Dokumen",
+        img: "/images/Icon/Icon/Kelas/Book.svg",
+      },
+      {
+        title: "Sertifikat",
+        img: "/images/Icon/Icon/Kelas/File-Certificate.svg",
+      },
+      {
+        title: "Preset",
+        img: "/images/Icon/Icon/Kelas/File_Edit.svg",
+      },
+    ],
+    courselanguage: [
+      {
+        title: "Bahasa Indonesia",
+        img: "/images/Icon/Icon/World.svg",
+      },
+    ],
   },
   {
     id: 5,
@@ -406,6 +520,7 @@ const Products = [
     work: "Gojek",
     rating: "3.5 (86)",
     price: "Rp 300k",
+    tagprice: 300000,
     imgproduct: "/images/Icon/Product/Product-05.svg",
     imgprofile: "/images/Icon/Avatar/Avatar-5.svg",
     titlepage:
@@ -495,6 +610,34 @@ const Products = [
         rating: "3.5",
       },
     ],
+    courseinclude: [
+      {
+        title: "Ujian Akhir",
+        img: "/images/Icon/Icon/Kelas/File_Check.svg",
+      },
+      {
+        title: "49 Video",
+        img: "/images/Icon/Icon/Kelas/Video.svg",
+      },
+      {
+        title: "7 Dokumen",
+        img: "/images/Icon/Icon/Kelas/Book.svg",
+      },
+      {
+        title: "Sertifikat",
+        img: "/images/Icon/Icon/Kelas/File-Certificate.svg",
+      },
+      {
+        title: "Preset",
+        img: "/images/Icon/Icon/Kelas/File_Edit.svg",
+      },
+    ],
+    courselanguage: [
+      {
+        title: "Bahasa Indonesia",
+        img: "/images/Icon/Icon/World.svg",
+      },
+    ],
   },
   {
     id: 6,
@@ -505,6 +648,7 @@ const Products = [
     work: "Gojek",
     rating: "3.5 (86)",
     price: "Rp 300k",
+    tagprice: 300000,
     imgproduct: "/images/Icon/Product/Product-06.svg",
     imgprofile: "/images/Icon/Avatar/Avatar-6.svg",
     titlepage:
@@ -693,6 +837,34 @@ const Products = [
         rating: "3.5",
       },
     ],
+    courseinclude: [
+      {
+        title: "Ujian Akhir",
+        img: "/images/Icon/Icon/Kelas/File_Check.svg",
+      },
+      {
+        title: "49 Video",
+        img: "/images/Icon/Icon/Kelas/Video.svg",
+      },
+      {
+        title: "7 Dokumen",
+        img: "/images/Icon/Icon/Kelas/Book.svg",
+      },
+      {
+        title: "Sertifikat",
+        img: "/images/Icon/Icon/Kelas/File-Certificate.svg",
+      },
+      {
+        title: "Preset",
+        img: "/images/Icon/Icon/Kelas/File_Edit.svg",
+      },
+    ],
+    courselanguage: [
+      {
+        title: "Bahasa Indonesia",
+        img: "/images/Icon/Icon/World.svg",
+      },
+    ],
   },
   {
     id: 8,
@@ -703,6 +875,7 @@ const Products = [
     work: "Gojek",
     rating: "3.5 (86)",
     price: "Rp 300k",
+    tagprice: 300000,
     imgproduct: "/images/Icon/Product/Product-08.svg",
     imgprofile: "/images/Icon/Avatar/Avatar-8.svg",
     titlepage:
@@ -792,6 +965,34 @@ const Products = [
         rating: "3.5",
       },
     ],
+    courseinclude: [
+      {
+        title: "Ujian Akhir",
+        img: "/images/Icon/Icon/Kelas/File_Check.svg",
+      },
+      {
+        title: "49 Video",
+        img: "/images/Icon/Icon/Kelas/Video.svg",
+      },
+      {
+        title: "7 Dokumen",
+        img: "/images/Icon/Icon/Kelas/Book.svg",
+      },
+      {
+        title: "Sertifikat",
+        img: "/images/Icon/Icon/Kelas/File-Certificate.svg",
+      },
+      {
+        title: "Preset",
+        img: "/images/Icon/Icon/Kelas/File_Edit.svg",
+      },
+    ],
+    courselanguage: [
+      {
+        title: "Bahasa Indonesia",
+        img: "/images/Icon/Icon/World.svg",
+      },
+    ],
   },
   {
     id: 9,
@@ -802,6 +1003,7 @@ const Products = [
     work: "Gojek",
     rating: "3.5 (86)",
     price: "Rp 300k",
+    tagprice: 300000,
     imgproduct: "/images/Icon/Product/Product-09.svg",
     imgprofile: "/images/Icon/Avatar/Avatar-9.svg",
     titlepage:
@@ -891,7 +1093,353 @@ const Products = [
         rating: "3.5",
       },
     ],
+    courseinclude: [
+      {
+        title: "Ujian Akhir",
+        img: "/images/Icon/Icon/Kelas/File_Check.svg",
+      },
+      {
+        title: "49 Video",
+        img: "/images/Icon/Icon/Kelas/Video.svg",
+      },
+      {
+        title: "7 Dokumen",
+        img: "/images/Icon/Icon/Kelas/Book.svg",
+      },
+      {
+        title: "Sertifikat",
+        img: "/images/Icon/Icon/Kelas/File-Certificate.svg",
+      },
+      {
+        title: "Preset",
+        img: "/images/Icon/Icon/Kelas/File_Edit.svg",
+      },
+    ],
+    courselanguage: [
+      {
+        title: "Bahasa Indonesia",
+        img: "/images/Icon/Icon/World.svg",
+      },
+    ],
   },
 ];
 
-export default Products;
+export const Banks = [
+  {
+    id: 1,
+    name: "BCA",
+    value: "bca",
+    type: "atm",
+    img: "/images/Icon/Icon/Bank/Bank_BCA.svg",
+    pembayaran: {
+      atm: [
+        "Masukkan kartu ATM dan PIN BCA Anda",
+        'Di menu utama, pilih "Transaksi Lainnya". Pilih "Transfer". Pilih "Ke BCA Virtual Account"',
+        "Masukkan nomor Virtual Account",
+        'Pastikan data Virtual Account Anda benar, kemudian masukkan angka yang perlu Anda bayarkan, kemudian pilih "Benar"',
+        'Cek dan perhatikan konfirmasi pembayaran dari layar ATM, jika sudah benar pilih "Ya", atau pilih "Tidak" jika data di layar masih salah',
+        'Transaksi Anda sudah selesai. Pilih "Tidak" untuk tidak melanjutkan transaksi lain',
+      ],
+      mobile: [
+        "Buka Aplikasi BCA Mobile",
+        'Pilih "m-BCA", kemudian pilih "m-Transfer"',
+        'Pilih "BCA Virtual Account"',
+        'Masukkan nomor Virtual Account, lalu pilih "OK"',
+        'Klik tombol "Send" yang berada di sudut kanan atas aplikasi untuk melakukan transfer',
+        'Klik "OK" untuk melanjutkan pembayaran',
+        "Masukkan PIN Anda untuk meng-otorisasi transaksi",
+        "Transaksi Anda telah selesai",
+      ],
+      internet: [
+        "Login ke KlikBCA Individual",
+        'Pilih "Transfer", kemudian pilih "Transfer ke BCA Virtual Account"',
+        "Masukkan nomor Virtual Account",
+        'Pilih "Lanjutkan" untuk melanjutkan pembayaran',
+        'Masukkan "RESPON KEYBCA APPLI 1" yang muncul pada Token BCA Anda, lalu klik tombol "Kirim"',
+        "Pembayaran telah selesai",
+      ],
+    },
+  },
+  {
+    id: 2,
+    name: "BNI",
+    value: "bni",
+    type: "atm",
+    img: "/images/Icon/Icon/Bank/Bank_BNI.svg",
+    pembayaran: {
+      atm: [
+        "Masukkan kartu ATM dan PIN BCA Anda",
+        'Di menu utama, pilih "Transaksi Lainnya". Pilih "Transfer". Pilih "Ke BCA Virtual Account"',
+        "Masukkan nomor Virtual Account",
+        'Pastikan data Virtual Account Anda benar, kemudian masukkan angka yang perlu Anda bayarkan, kemudian pilih "Benar"',
+        'Cek dan perhatikan konfirmasi pembayaran dari layar ATM, jika sudah benar pilih "Ya", atau pilih "Tidak" jika data di layar masih salah',
+        'Transaksi Anda sudah selesai. Pilih "Tidak" untuk tidak melanjutkan transaksi lain',
+      ],
+      mobile: [
+        "Buka Aplikasi BCA Mobile",
+        'Pilih "m-BCA", kemudian pilih "m-Transfer"',
+        'Pilih "BCA Virtual Account"',
+        'Masukkan nomor Virtual Account, lalu pilih "OK"',
+        'Klik tombol "Send" yang berada di sudut kanan atas aplikasi untuk melakukan transfer',
+        'Klik "OK" untuk melanjutkan pembayaran',
+        "Masukkan PIN Anda untuk meng-otorisasi transaksi",
+        "Transaksi Anda telah selesai",
+      ],
+      internet: [
+        "Login ke KlikBCA Individual",
+        'Pilih "Transfer", kemudian pilih "Transfer ke BCA Virtual Account"',
+        "Masukkan nomor Virtual Account",
+        'Pilih "Lanjutkan" untuk melanjutkan pembayaran',
+        'Masukkan "RESPON KEYBCA APPLI 1" yang muncul pada Token BCA Anda, lalu klik tombol "Kirim"',
+        "Pembayaran telah selesai",
+      ],
+    },
+  },
+  {
+    id: 3,
+    name: "BRI",
+    value: "bri",
+    type: "atm",
+    img: "/images/Icon/Icon/Bank/Bank_BRI.svg",
+    pembayaran: {
+      atm: [
+        "Masukkan kartu ATM dan PIN BCA Anda",
+        'Di menu utama, pilih "Transaksi Lainnya". Pilih "Transfer". Pilih "Ke BCA Virtual Account"',
+        "Masukkan nomor Virtual Account",
+        'Pastikan data Virtual Account Anda benar, kemudian masukkan angka yang perlu Anda bayarkan, kemudian pilih "Benar"',
+        'Cek dan perhatikan konfirmasi pembayaran dari layar ATM, jika sudah benar pilih "Ya", atau pilih "Tidak" jika data di layar masih salah',
+        'Transaksi Anda sudah selesai. Pilih "Tidak" untuk tidak melanjutkan transaksi lain',
+      ],
+      mobile: [
+        "Buka Aplikasi BCA Mobile",
+        'Pilih "m-BCA", kemudian pilih "m-Transfer"',
+        'Pilih "BCA Virtual Account"',
+        'Masukkan nomor Virtual Account, lalu pilih "OK"',
+        'Klik tombol "Send" yang berada di sudut kanan atas aplikasi untuk melakukan transfer',
+        'Klik "OK" untuk melanjutkan pembayaran',
+        "Masukkan PIN Anda untuk meng-otorisasi transaksi",
+        "Transaksi Anda telah selesai",
+      ],
+      internet: [
+        "Login ke KlikBCA Individual",
+        'Pilih "Transfer", kemudian pilih "Transfer ke BCA Virtual Account"',
+        "Masukkan nomor Virtual Account",
+        'Pilih "Lanjutkan" untuk melanjutkan pembayaran',
+        'Masukkan "RESPON KEYBCA APPLI 1" yang muncul pada Token BCA Anda, lalu klik tombol "Kirim"',
+        "Pembayaran telah selesai",
+      ],
+    },
+  },
+  {
+    id: 4,
+    name: "Mandiri",
+    value: "mandiri",
+    type: "atm",
+    img: "/images/Icon/Icon/Bank/Bank_Mandiri.svg",
+    pembayaran: {
+      atm: [
+        "Masukkan kartu ATM dan PIN BCA Anda",
+        'Di menu utama, pilih "Transaksi Lainnya". Pilih "Transfer". Pilih "Ke BCA Virtual Account"',
+        "Masukkan nomor Virtual Account",
+        'Pastikan data Virtual Account Anda benar, kemudian masukkan angka yang perlu Anda bayarkan, kemudian pilih "Benar"',
+        'Cek dan perhatikan konfirmasi pembayaran dari layar ATM, jika sudah benar pilih "Ya", atau pilih "Tidak" jika data di layar masih salah',
+        'Transaksi Anda sudah selesai. Pilih "Tidak" untuk tidak melanjutkan transaksi lain',
+      ],
+      mobile: [
+        "Buka Aplikasi BCA Mobile",
+        'Pilih "m-BCA", kemudian pilih "m-Transfer"',
+        'Pilih "BCA Virtual Account"',
+        'Masukkan nomor Virtual Account, lalu pilih "OK"',
+        'Klik tombol "Send" yang berada di sudut kanan atas aplikasi untuk melakukan transfer',
+        'Klik "OK" untuk melanjutkan pembayaran',
+        "Masukkan PIN Anda untuk meng-otorisasi transaksi",
+        "Transaksi Anda telah selesai",
+      ],
+      internet: [
+        "Login ke KlikBCA Individual",
+        'Pilih "Transfer", kemudian pilih "Transfer ke BCA Virtual Account"',
+        "Masukkan nomor Virtual Account",
+        'Pilih "Lanjutkan" untuk melanjutkan pembayaran',
+        'Masukkan "RESPON KEYBCA APPLI 1" yang muncul pada Token BCA Anda, lalu klik tombol "Kirim"',
+        "Pembayaran telah selesai",
+      ],
+    },
+  },
+  {
+    id: 5,
+    name: "Dana",
+    value: "dana",
+    type: "digital",
+    img: "/images/Icon/Icon/Bank/Dana.svg",
+    pembayaran: {
+      atm: [
+        "Masukkan kartu ATM dan PIN BCA Anda",
+        'Di menu utama, pilih "Transaksi Lainnya". Pilih "Transfer". Pilih "Ke BCA Virtual Account"',
+        "Masukkan nomor Virtual Account",
+        'Pastikan data Virtual Account Anda benar, kemudian masukkan angka yang perlu Anda bayarkan, kemudian pilih "Benar"',
+        'Cek dan perhatikan konfirmasi pembayaran dari layar ATM, jika sudah benar pilih "Ya", atau pilih "Tidak" jika data di layar masih salah',
+        'Transaksi Anda sudah selesai. Pilih "Tidak" untuk tidak melanjutkan transaksi lain',
+      ],
+      mobile: [
+        "Buka Aplikasi BCA Mobile",
+        'Pilih "m-BCA", kemudian pilih "m-Transfer"',
+        'Pilih "BCA Virtual Account"',
+        'Masukkan nomor Virtual Account, lalu pilih "OK"',
+        'Klik tombol "Send" yang berada di sudut kanan atas aplikasi untuk melakukan transfer',
+        'Klik "OK" untuk melanjutkan pembayaran',
+        "Masukkan PIN Anda untuk meng-otorisasi transaksi",
+        "Transaksi Anda telah selesai",
+      ],
+      internet: [
+        "Login ke KlikBCA Individual",
+        'Pilih "Transfer", kemudian pilih "Transfer ke BCA Virtual Account"',
+        "Masukkan nomor Virtual Account",
+        'Pilih "Lanjutkan" untuk melanjutkan pembayaran',
+        'Masukkan "RESPON KEYBCA APPLI 1" yang muncul pada Token BCA Anda, lalu klik tombol "Kirim"',
+        "Pembayaran telah selesai",
+      ],
+    },
+  },
+  {
+    id: 6,
+    name: "OVO",
+    value: "ovo",
+    type: "digital",
+    img: "/images/Icon/Icon/Bank/Ovo.svg",
+    pembayaran: {
+      atm: [
+        "Masukkan kartu ATM dan PIN BCA Anda",
+        'Di menu utama, pilih "Transaksi Lainnya". Pilih "Transfer". Pilih "Ke BCA Virtual Account"',
+        "Masukkan nomor Virtual Account",
+        'Pastikan data Virtual Account Anda benar, kemudian masukkan angka yang perlu Anda bayarkan, kemudian pilih "Benar"',
+        'Cek dan perhatikan konfirmasi pembayaran dari layar ATM, jika sudah benar pilih "Ya", atau pilih "Tidak" jika data di layar masih salah',
+        'Transaksi Anda sudah selesai. Pilih "Tidak" untuk tidak melanjutkan transaksi lain',
+      ],
+      mobile: [
+        "Buka Aplikasi BCA Mobile",
+        'Pilih "m-BCA", kemudian pilih "m-Transfer"',
+        'Pilih "BCA Virtual Account"',
+        'Masukkan nomor Virtual Account, lalu pilih "OK"',
+        'Klik tombol "Send" yang berada di sudut kanan atas aplikasi untuk melakukan transfer',
+        'Klik "OK" untuk melanjutkan pembayaran',
+        "Masukkan PIN Anda untuk meng-otorisasi transaksi",
+        "Transaksi Anda telah selesai",
+      ],
+      internet: [
+        "Login ke KlikBCA Individual",
+        'Pilih "Transfer", kemudian pilih "Transfer ke BCA Virtual Account"',
+        "Masukkan nomor Virtual Account",
+        'Pilih "Lanjutkan" untuk melanjutkan pembayaran',
+        'Masukkan "RESPON KEYBCA APPLI 1" yang muncul pada Token BCA Anda, lalu klik tombol "Kirim"',
+        "Pembayaran telah selesai",
+      ],
+    },
+  },
+  {
+    id: 7,
+    name: "LinkAja",
+    value: "linkaja",
+    type: "digital",
+    img: "/images/Icon/Icon/Bank/LinkAja.svg",
+    pembayaran: {
+      atm: [
+        "Masukkan kartu ATM dan PIN BCA Anda",
+        'Di menu utama, pilih "Transaksi Lainnya". Pilih "Transfer". Pilih "Ke BCA Virtual Account"',
+        "Masukkan nomor Virtual Account",
+        'Pastikan data Virtual Account Anda benar, kemudian masukkan angka yang perlu Anda bayarkan, kemudian pilih "Benar"',
+        'Cek dan perhatikan konfirmasi pembayaran dari layar ATM, jika sudah benar pilih "Ya", atau pilih "Tidak" jika data di layar masih salah',
+        'Transaksi Anda sudah selesai. Pilih "Tidak" untuk tidak melanjutkan transaksi lain',
+      ],
+      mobile: [
+        "Buka Aplikasi BCA Mobile",
+        'Pilih "m-BCA", kemudian pilih "m-Transfer"',
+        'Pilih "BCA Virtual Account"',
+        'Masukkan nomor Virtual Account, lalu pilih "OK"',
+        'Klik tombol "Send" yang berada di sudut kanan atas aplikasi untuk melakukan transfer',
+        'Klik "OK" untuk melanjutkan pembayaran',
+        "Masukkan PIN Anda untuk meng-otorisasi transaksi",
+        "Transaksi Anda telah selesai",
+      ],
+      internet: [
+        "Login ke KlikBCA Individual",
+        'Pilih "Transfer", kemudian pilih "Transfer ke BCA Virtual Account"',
+        "Masukkan nomor Virtual Account",
+        'Pilih "Lanjutkan" untuk melanjutkan pembayaran',
+        'Masukkan "RESPON KEYBCA APPLI 1" yang muncul pada Token BCA Anda, lalu klik tombol "Kirim"',
+        "Pembayaran telah selesai",
+      ],
+    },
+  },
+  {
+    id: 8,
+    name: "Shopee Pay",
+    value: "shopeepay",
+    type: "digital",
+    img: "/images/Icon/Icon/Bank/ShopeePay.svg",
+    pembayaran: {
+      atm: [
+        "Masukkan kartu ATM dan PIN BCA Anda",
+        'Di menu utama, pilih "Transaksi Lainnya". Pilih "Transfer". Pilih "Ke BCA Virtual Account"',
+        "Masukkan nomor Virtual Account",
+        'Pastikan data Virtual Account Anda benar, kemudian masukkan angka yang perlu Anda bayarkan, kemudian pilih "Benar"',
+        'Cek dan perhatikan konfirmasi pembayaran dari layar ATM, jika sudah benar pilih "Ya", atau pilih "Tidak" jika data di layar masih salah',
+        'Transaksi Anda sudah selesai. Pilih "Tidak" untuk tidak melanjutkan transaksi lain',
+      ],
+      mobile: [
+        "Buka Aplikasi BCA Mobile",
+        'Pilih "m-BCA", kemudian pilih "m-Transfer"',
+        'Pilih "BCA Virtual Account"',
+        'Masukkan nomor Virtual Account, lalu pilih "OK"',
+        'Klik tombol "Send" yang berada di sudut kanan atas aplikasi untuk melakukan transfer',
+        'Klik "OK" untuk melanjutkan pembayaran',
+        "Masukkan PIN Anda untuk meng-otorisasi transaksi",
+        "Transaksi Anda telah selesai",
+      ],
+      internet: [
+        "Login ke KlikBCA Individual",
+        'Pilih "Transfer", kemudian pilih "Transfer ke BCA Virtual Account"',
+        "Masukkan nomor Virtual Account",
+        'Pilih "Lanjutkan" untuk melanjutkan pembayaran',
+        'Masukkan "RESPON KEYBCA APPLI 1" yang muncul pada Token BCA Anda, lalu klik tombol "Kirim"',
+        "Pembayaran telah selesai",
+      ],
+    },
+  },
+  {
+    id: 9,
+    name: " ",
+    value: "kartukredit",
+    type: "kredit",
+    img1: "/images/Icon/Icon/Bank/MasterCard.svg",
+    img2: "/images/Icon/Icon/Bank/VISA.svg",
+    img3: "/images/Icon/Icon/Bank/JCB.svg",
+    pembayaran: {
+      atm: [
+        "Masukkan kartu ATM dan PIN BCA Anda",
+        'Di menu utama, pilih "Transaksi Lainnya". Pilih "Transfer". Pilih "Ke BCA Virtual Account"',
+        "Masukkan nomor Virtual Account",
+        'Pastikan data Virtual Account Anda benar, kemudian masukkan angka yang perlu Anda bayarkan, kemudian pilih "Benar"',
+        'Cek dan perhatikan konfirmasi pembayaran dari layar ATM, jika sudah benar pilih "Ya", atau pilih "Tidak" jika data di layar masih salah',
+        'Transaksi Anda sudah selesai. Pilih "Tidak" untuk tidak melanjutkan transaksi lain',
+      ],
+      mobile: [
+        "Buka Aplikasi BCA Mobile",
+        'Pilih "m-BCA", kemudian pilih "m-Transfer"',
+        'Pilih "BCA Virtual Account"',
+        'Masukkan nomor Virtual Account, lalu pilih "OK"',
+        'Klik tombol "Send" yang berada di sudut kanan atas aplikasi untuk melakukan transfer',
+        'Klik "OK" untuk melanjutkan pembayaran',
+        "Masukkan PIN Anda untuk meng-otorisasi transaksi",
+        "Transaksi Anda telah selesai",
+      ],
+      internet: [
+        "Login ke KlikBCA Individual",
+        'Pilih "Transfer", kemudian pilih "Transfer ke BCA Virtual Account"',
+        "Masukkan nomor Virtual Account",
+        'Pilih "Lanjutkan" untuk melanjutkan pembayaran',
+        'Masukkan "RESPON KEYBCA APPLI 1" yang muncul pada Token BCA Anda, lalu klik tombol "Kirim"',
+        "Pembayaran telah selesai",
+      ],
+    },
+  },
+];

@@ -4,7 +4,7 @@ import Course from "../Fragments/Course";
 import Card_Profile from "../Fragments/Keterangan/Card_Profile";
 import Deskripsi from "../Fragments/Keterangan/Deskripsi";
 import Keterangan_Course from "../Fragments/Keterangan/Keterangan_Course";
-import Products from "../Data/Data";
+import { Products } from "../Data/Data";
 import CardProduct from "../Fragments/CardProduct";
 
 function DetailLayouts({ newProducts }) {
@@ -40,7 +40,9 @@ function DetailLayouts({ newProducts }) {
           <Course Course={newProducts.course} />
           <Card_Profile Data={newProducts.review} title="Rating dan Review" />
         </div>
-        <Keterangan_Course />
+        <div className="md:w-[40%]">
+          <Keterangan_Course data={newProducts} hide="block" />
+        </div>
       </div>
       <h3>Video Pembelajaran Terkait Lainnya</h3>
       <p>Ekspansi Pengetahuan Anda dengan Rekomendasi Spesial Kami!</p>

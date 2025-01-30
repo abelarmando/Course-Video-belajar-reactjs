@@ -1,5 +1,6 @@
 // import InputForm from "../Elements/Input/Index";
 
+import { saveToLocalStorage } from "../../services/function_service";
 import { Input_nohp, InputForm } from "../Elements/Input/Index";
 
 function FormRegister() {
@@ -10,11 +11,11 @@ function FormRegister() {
       document.getElementById("password2").style.border = "1px solid red";
       document.getElementById("password1").style.border = "1px solid red";
     } else {
-      localStorage.setItem("text", e.target.text.value);
-      localStorage.setItem("email", e.target.email.value);
-      localStorage.setItem("number", e.target.number.value);
-      localStorage.setItem("password", e.target.password1.value);
-      localStorage.setItem("islogin", false);
+      saveToLocalStorage("text", e.target.text.value);
+      saveToLocalStorage("email", e.target.email.value);
+      saveToLocalStorage("number", e.target.number.value);
+      saveToLocalStorage("password", e.target.password1.value);
+      saveToLocalStorage("islogin", false);
       alert("Pendaftaran Berhasil");
       window.location.href = "/login";
     }
