@@ -40,7 +40,9 @@ function DetailLayouts({ newProducts }) {
           <Course Course={newProducts.course} />
           <Card_Profile Data={newProducts.review} title="Rating dan Review" />
         </div>
-        <Keterangan_Course />
+        <div className="md:w-[40%]">
+          <Keterangan_Course data={newProducts} hide="block" />
+        </div>
       </div>
       <h3>Video Pembelajaran Terkait Lainnya</h3>
       <p>Ekspansi Pengetahuan Anda dengan Rekomendasi Spesial Kami!</p>

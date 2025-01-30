@@ -98,6 +98,34 @@ export const Products = [
         rating: "3.5",
       },
     ],
+    courseinclude: [
+      {
+        title: "Ujian Akhir",
+        img: "/images/Icon/Icon/Kelas/File_Check.svg",
+      },
+      {
+        title: "49 Video",
+        img: "/images/Icon/Icon/Kelas/Video.svg",
+      },
+      {
+        title: "7 Dokumen",
+        img: "/images/Icon/Icon/Kelas/Book.svg",
+      },
+      {
+        title: "Sertifikat",
+        img: "/images/Icon/Icon/Kelas/File-Certificate.svg",
+      },
+      {
+        title: "Preset",
+        img: "/images/Icon/Icon/Kelas/File_Edit.svg",
+      },
+    ],
+    courselanguage: [
+      {
+        title: "Bahasa Indonesia",
+        img: "/images/Icon/Icon/World.svg",
+      },
+    ],
   },
   {
     id: 2,
@@ -108,14 +136,13 @@ export const Products = [
     work: "Gojek",
     rating: "3.5 (86)",
     price: "Rp 300k",
+    tagprice: 300000,
     imgproduct: "/images/Icon/Product/Product-02.svg",
     imgprofile: "/images/Icon/Avatar/Avatar-2.svg",
-
     titlepage:
       "Gapai Karier Impianmu sebagai Seorang UI/UX Designer & Product Manager.",
     textpage:
       "Belajar bersama tutor profesional di Video Course. Kapanpun, di manapun.",
-
     description:
       "Foundations of User Experience (UX) Design adalah yang pertama dari rangkaian tujuh kursus yang akan membekali Anda dengan keterampilan yang dibutuhkan untuk melamar pekerjaan tingkat pemula dalam desain pengalaman pengguna. Desainer UX fokus pada interaksi yang dilakukan orang dengan produk seperti situs web, aplikasi seluler, dan objek fisik. Desainer UX membuat interaksi sehari-hari itu dapat digunakan, menyenangkan, dan dapat diakses. Peran seorang desainer UX tingkat pemula mungkin termasuk berempati dengan pengguna, menentukan poin rasa sakit mereka, memunculkan ide untuk solusi desain, membuat wireframe, prototipe, dan maket, dan menguji desain untuk mendapatkan umpan balik.",
     background: [
@@ -199,6 +226,34 @@ export const Products = [
         rating: "3.5",
       },
     ],
+    courseinclude: [
+      {
+        title: "Ujian Akhir",
+        img: "/images/Icon/Icon/Kelas/File_Check.svg",
+      },
+      {
+        title: "49 Video",
+        img: "/images/Icon/Icon/Kelas/Video.svg",
+      },
+      {
+        title: "7 Dokumen",
+        img: "/images/Icon/Icon/Kelas/Book.svg",
+      },
+      {
+        title: "Sertifikat",
+        img: "/images/Icon/Icon/Kelas/File-Certificate.svg",
+      },
+      {
+        title: "Preset",
+        img: "/images/Icon/Icon/Kelas/File_Edit.svg",
+      },
+    ],
+    courselanguage: [
+      {
+        title: "Bahasa Indonesia",
+        img: "/images/Icon/Icon/World.svg",
+      },
+    ],
   },
   {
     id: 3,
@@ -209,6 +264,7 @@ export const Products = [
     work: "Gojek",
     rating: "3.5 (86)",
     price: "Rp 300k",
+    tagprice: 300000,
     imgproduct: "/images/Icon/Product/Product-03.svg",
     imgprofile: "/images/Icon/Avatar/Avatar-3.svg",
     titlepage:
@@ -298,6 +354,34 @@ export const Products = [
         rating: "3.5",
       },
     ],
+    courseinclude: [
+      {
+        title: "Ujian Akhir",
+        img: "/images/Icon/Icon/Kelas/File_Check.svg",
+      },
+      {
+        title: "49 Video",
+        img: "/images/Icon/Icon/Kelas/Video.svg",
+      },
+      {
+        title: "7 Dokumen",
+        img: "/images/Icon/Icon/Kelas/Book.svg",
+      },
+      {
+        title: "Sertifikat",
+        img: "/images/Icon/Icon/Kelas/File-Certificate.svg",
+      },
+      {
+        title: "Preset",
+        img: "/images/Icon/Icon/Kelas/File_Edit.svg",
+      },
+    ],
+    courselanguage: [
+      {
+        title: "Bahasa Indonesia",
+        img: "/images/Icon/Icon/World.svg",
+      },
+    ],
   },
   {
     id: 4,
@@ -308,6 +392,7 @@ export const Products = [
     work: "Gojek",
     rating: "3.5 (86)",
     price: "Rp 300k",
+    tagprice: 300000,
     imgproduct: "/images/Icon/Product/Product-04.svg",
     imgprofile: "/images/Icon/Avatar/Avatar-4.svg",
     titlepage:
@@ -397,6 +482,34 @@ export const Products = [
         rating: "3.5",
       },
     ],
+    courseinclude: [
+      {
+        title: "Ujian Akhir",
+        img: "/images/Icon/Icon/Kelas/File_Check.svg",
+      },
+      {
+        title: "49 Video",
+        img: "/images/Icon/Icon/Kelas/Video.svg",
+      },
+      {
+        title: "7 Dokumen",
+        img: "/images/Icon/Icon/Kelas/Book.svg",
+      },
+      {
+        title: "Sertifikat",
+        img: "/images/Icon/Icon/Kelas/File-Certificate.svg",
+      },
+      {
+        title: "Preset",
+        img: "/images/Icon/Icon/Kelas/File_Edit.svg",
+      },
+    ],
+    courselanguage: [
+      {
+        title: "Bahasa Indonesia",
+        img: "/images/Icon/Icon/World.svg",
+      },
+    ],
   },
   {
     id: 5,
@@ -407,6 +520,7 @@ export const Products = [
     work: "Gojek",
     rating: "3.5 (86)",
     price: "Rp 300k",
+    tagprice: 300000,
     imgproduct: "/images/Icon/Product/Product-05.svg",
     imgprofile: "/images/Icon/Avatar/Avatar-5.svg",
     titlepage:
@@ -496,6 +610,34 @@ export const Products = [
         rating: "3.5",
       },
     ],
+    courseinclude: [
+      {
+        title: "Ujian Akhir",
+        img: "/images/Icon/Icon/Kelas/File_Check.svg",
+      },
+      {
+        title: "49 Video",
+        img: "/images/Icon/Icon/Kelas/Video.svg",
+      },
+      {
+        title: "7 Dokumen",
+        img: "/images/Icon/Icon/Kelas/Book.svg",
+      },
+      {
+        title: "Sertifikat",
+        img: "/images/Icon/Icon/Kelas/File-Certificate.svg",
+      },
+      {
+        title: "Preset",
+        img: "/images/Icon/Icon/Kelas/File_Edit.svg",
+      },
+    ],
+    courselanguage: [
+      {
+        title: "Bahasa Indonesia",
+        img: "/images/Icon/Icon/World.svg",
+      },
+    ],
   },
   {
     id: 6,
@@ -506,6 +648,7 @@ export const Products = [
     work: "Gojek",
     rating: "3.5 (86)",
     price: "Rp 300k",
+    tagprice: 300000,
     imgproduct: "/images/Icon/Product/Product-06.svg",
     imgprofile: "/images/Icon/Avatar/Avatar-6.svg",
     titlepage:
@@ -694,6 +837,34 @@ export const Products = [
         rating: "3.5",
       },
     ],
+    courseinclude: [
+      {
+        title: "Ujian Akhir",
+        img: "/images/Icon/Icon/Kelas/File_Check.svg",
+      },
+      {
+        title: "49 Video",
+        img: "/images/Icon/Icon/Kelas/Video.svg",
+      },
+      {
+        title: "7 Dokumen",
+        img: "/images/Icon/Icon/Kelas/Book.svg",
+      },
+      {
+        title: "Sertifikat",
+        img: "/images/Icon/Icon/Kelas/File-Certificate.svg",
+      },
+      {
+        title: "Preset",
+        img: "/images/Icon/Icon/Kelas/File_Edit.svg",
+      },
+    ],
+    courselanguage: [
+      {
+        title: "Bahasa Indonesia",
+        img: "/images/Icon/Icon/World.svg",
+      },
+    ],
   },
   {
     id: 8,
@@ -704,6 +875,7 @@ export const Products = [
     work: "Gojek",
     rating: "3.5 (86)",
     price: "Rp 300k",
+    tagprice: 300000,
     imgproduct: "/images/Icon/Product/Product-08.svg",
     imgprofile: "/images/Icon/Avatar/Avatar-8.svg",
     titlepage:
@@ -793,6 +965,34 @@ export const Products = [
         rating: "3.5",
       },
     ],
+    courseinclude: [
+      {
+        title: "Ujian Akhir",
+        img: "/images/Icon/Icon/Kelas/File_Check.svg",
+      },
+      {
+        title: "49 Video",
+        img: "/images/Icon/Icon/Kelas/Video.svg",
+      },
+      {
+        title: "7 Dokumen",
+        img: "/images/Icon/Icon/Kelas/Book.svg",
+      },
+      {
+        title: "Sertifikat",
+        img: "/images/Icon/Icon/Kelas/File-Certificate.svg",
+      },
+      {
+        title: "Preset",
+        img: "/images/Icon/Icon/Kelas/File_Edit.svg",
+      },
+    ],
+    courselanguage: [
+      {
+        title: "Bahasa Indonesia",
+        img: "/images/Icon/Icon/World.svg",
+      },
+    ],
   },
   {
     id: 9,
@@ -803,6 +1003,7 @@ export const Products = [
     work: "Gojek",
     rating: "3.5 (86)",
     price: "Rp 300k",
+    tagprice: 300000,
     imgproduct: "/images/Icon/Product/Product-09.svg",
     imgprofile: "/images/Icon/Avatar/Avatar-9.svg",
     titlepage:
@@ -890,6 +1091,34 @@ export const Products = [
         position: "Alumni Batch 2",
         imgrating: "/images/Rating.svg",
         rating: "3.5",
+      },
+    ],
+    courseinclude: [
+      {
+        title: "Ujian Akhir",
+        img: "/images/Icon/Icon/Kelas/File_Check.svg",
+      },
+      {
+        title: "49 Video",
+        img: "/images/Icon/Icon/Kelas/Video.svg",
+      },
+      {
+        title: "7 Dokumen",
+        img: "/images/Icon/Icon/Kelas/Book.svg",
+      },
+      {
+        title: "Sertifikat",
+        img: "/images/Icon/Icon/Kelas/File-Certificate.svg",
+      },
+      {
+        title: "Preset",
+        img: "/images/Icon/Icon/Kelas/File_Edit.svg",
+      },
+    ],
+    courselanguage: [
+      {
+        title: "Bahasa Indonesia",
+        img: "/images/Icon/Icon/World.svg",
       },
     ],
   },
