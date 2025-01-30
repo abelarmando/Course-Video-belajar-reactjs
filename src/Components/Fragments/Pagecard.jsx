@@ -1,5 +1,5 @@
 import Pagination from "./Pagination";
-import Products from "../Data/Data";
+import { Products } from "../Data/Data";
 import { useState } from "react";
 import CardProduct from "../Fragments/CardProduct";
 import FilterKelas from "./FilterKelas";

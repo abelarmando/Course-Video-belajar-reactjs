@@ -19,7 +19,7 @@ function NavbarImg() {
         src="/images/Icon/Icon/Burger.svg"
         alt="Burger"
         onClick={() => setIsclick(!isclick)}
-        className="hidden max-md:block"
+        className=" md:hidden"
       />
       {isclick && <DropdownMenu />}
     </div>

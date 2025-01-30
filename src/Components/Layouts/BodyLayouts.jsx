@@ -1,7 +1,7 @@
 import CardProduct from "../Fragments/CardProduct";
 import Kategori_kelas from "../Fragments/Kategori_kelas";
 import Banner from "../Fragments/Banner";
-import Products from "../Data/Data.jsx";
+import { Products } from "../Data/Data.jsx";
 // import { Link } from "react-router-dom";
 
 function BodyLayouts() {
