@@ -7,8 +7,8 @@ function Keterangan_Course({ data, hide = "hidden" }) {
         src={data.imgproduct}
         alt="a"
         className={`${
-          hide === "hidden" ? "block" : "hidden"
-        } w-full max-md:hidden`}
+          hide === "hidden" ? "block max-md:hidden" : "hidden"
+        } w-full `}
       />
       <h6 className="text-base font-bold">{data.titlepage}</h6>
       <div className="flex justify-between items-center">
