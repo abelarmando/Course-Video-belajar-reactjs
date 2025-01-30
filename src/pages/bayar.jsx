@@ -6,6 +6,7 @@ function Bayar() {
       <Navbar />
       <div>
         <p>halo</p>
+        <p>halo</p>
       </div>
     </>
   );
