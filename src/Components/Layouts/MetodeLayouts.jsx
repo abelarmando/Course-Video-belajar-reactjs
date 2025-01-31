@@ -16,8 +16,9 @@ function MetodeLayouts({ id }) {
 
   const handlesubmit = (e) => {
     e.preventDefault();
+    console.log(newid);
 
-    if (!newid) {
+    if (newid < 0) {
       alert("Pilih Metode Pembayaran");
     } else {
       setcart([
@@ -25,8 +26,9 @@ function MetodeLayouts({ id }) {
         {
           id: noinvoice,
           invoice: `HEL/VI/${noinvoice}`,
-          product: id - 1,
+          productnum: id - 1,
           pembayaran: checkbox[newid].value,
+          paid: false,
           time: new Date().toLocaleString(),
           tenggat: new Date(
             new Date().getTime() + 60 * 60 * 1000
@@ -34,7 +36,7 @@ function MetodeLayouts({ id }) {
         },
       ]);
       setnoinvoice((prev) => prev + 1);
-      window.location.href = `/bayar/${newid}`;
+      window.location.href = `/bayar/${noinvoice}`;
     }
   };
   saveToLocalStorage("cart", cart);

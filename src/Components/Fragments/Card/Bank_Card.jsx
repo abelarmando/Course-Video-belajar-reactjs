@@ -6,7 +6,7 @@ function Bank({ children, id, title, img, setnewid, value }) {
       onClick={() => setnewid(id - 1)}
     >
       <label className="flex gap-2">
-        <img src={img} alt="bca" />
+        <img src={img} alt="bank" />
         {children}
         {title}
       </label>
