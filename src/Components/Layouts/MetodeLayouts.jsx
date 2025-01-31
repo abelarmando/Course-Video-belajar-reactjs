@@ -16,8 +16,9 @@ function MetodeLayouts({ id }) {
 
   const handlesubmit = (e) => {
     e.preventDefault();
+    console.log(newid);
 
-    if (!newid) {
+    if (newid < 0) {
       alert("Pilih Metode Pembayaran");
     } else {
       setcart([
