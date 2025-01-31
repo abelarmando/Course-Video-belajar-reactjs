@@ -36,7 +36,7 @@ const router = createBrowserRouter([
     element: <Metode />,
   },
   {
-    path: "bayar/:id",
+    path: "/bayar/:id",
     element: <Bayar />,
   },
 ]);
