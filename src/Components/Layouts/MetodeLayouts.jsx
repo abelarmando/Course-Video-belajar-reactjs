@@ -27,6 +27,7 @@ function MetodeLayouts({ id }) {
           invoice: `HEL/VI/${noinvoice}`,
           productnum: id - 1,
           pembayaran: checkbox[newid].value,
+          paid: false,
           time: new Date().toLocaleString(),
           tenggat: new Date(
             new Date().getTime() + 60 * 60 * 1000
