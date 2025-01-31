@@ -1130,7 +1130,9 @@ export const Banks = [
     name: "BCA",
     value: "bca",
     type: "atm",
+    va: 11739,
     img: "/images/Icon/Icon/Bank/Bank_BCA.svg",
+    imglogo: "/images/Icon/Logo/Bank/BCA.svg",
     pembayaran: {
       atm: [
         "Masukkan kartu ATM dan PIN BCA Anda",
@@ -1165,7 +1167,9 @@ export const Banks = [
     name: "BNI",
     value: "bni",
     type: "atm",
+    va: 12345,
     img: "/images/Icon/Icon/Bank/Bank_BNI.svg",
+    imglogo: "/images/Icon/Logo/Bank/BNI.svg",
     pembayaran: {
       atm: [
         "Masukkan kartu ATM dan PIN BCA Anda",
@@ -1200,7 +1204,9 @@ export const Banks = [
     name: "BRI",
     value: "bri",
     type: "atm",
+    va: 14236,
     img: "/images/Icon/Icon/Bank/Bank_BRI.svg",
+    imglogo: "/images/Icon/Logo/Bank/BRI.svg",
     pembayaran: {
       atm: [
         "Masukkan kartu ATM dan PIN BCA Anda",
@@ -1235,7 +1241,9 @@ export const Banks = [
     name: "Mandiri",
     value: "mandiri",
     type: "atm",
+    va: 12451,
     img: "/images/Icon/Icon/Bank/Bank_Mandiri.svg",
+    imglogo: "/images/Icon/Logo/Bank/Mandiri.svg",
     pembayaran: {
       atm: [
         "Masukkan kartu ATM dan PIN BCA Anda",
@@ -1270,7 +1278,9 @@ export const Banks = [
     name: "Dana",
     value: "dana",
     type: "digital",
+    va: 12313,
     img: "/images/Icon/Icon/Bank/Dana.svg",
+    imglogo: "/images/Icon/Logo/Bank/Dana.svg",
     pembayaran: {
       atm: [
         "Masukkan kartu ATM dan PIN BCA Anda",
@@ -1305,7 +1315,9 @@ export const Banks = [
     name: "OVO",
     value: "ovo",
     type: "digital",
+    va: 12387,
     img: "/images/Icon/Icon/Bank/Ovo.svg",
+    imglogo: "/images/Icon/Logo/Bank/OVO.svg",
     pembayaran: {
       atm: [
         "Masukkan kartu ATM dan PIN BCA Anda",
@@ -1340,7 +1352,9 @@ export const Banks = [
     name: "LinkAja",
     value: "linkaja",
     type: "digital",
+    va: 12874,
     img: "/images/Icon/Icon/Bank/LinkAja.svg",
+    imglogo: "/images/Icon/Logo/Bank/LinkAja.svg",
     pembayaran: {
       atm: [
         "Masukkan kartu ATM dan PIN BCA Anda",
@@ -1375,7 +1389,9 @@ export const Banks = [
     name: "Shopee Pay",
     value: "shopeepay",
     type: "digital",
+    va: 12874,
     img: "/images/Icon/Icon/Bank/ShopeePay.svg",
+    imglogo: "/images/Icon/Logo/Bank/ShopeePay.svg",
     pembayaran: {
       atm: [
         "Masukkan kartu ATM dan PIN BCA Anda",
@@ -1410,6 +1426,7 @@ export const Banks = [
     name: " ",
     value: "kartukredit",
     type: "kredit",
+    va: 81818,
     img1: "/images/Icon/Icon/Bank/MasterCard.svg",
     img2: "/images/Icon/Icon/Bank/VISA.svg",
     img3: "/images/Icon/Icon/Bank/JCB.svg",
