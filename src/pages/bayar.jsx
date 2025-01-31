@@ -10,9 +10,7 @@ function Bayar() {
     <>
       <Navbar />
       <div className="py-16 px-[120px] max-md:px-5 max-md:py-7">
-        <div>
-          <BayarLayouts id={id} />
-        </div>
+        <BayarLayouts id={id} />
       </div>
     </>
   );
