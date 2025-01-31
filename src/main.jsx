@@ -7,7 +7,7 @@ import Register from "./pages/register.jsx";
 import Home from "./pages/home.jsx";
 import Kategori from "./pages/kategori.jsx";
 import Produk from "./pages/produk.jsx";
-import Metode from "./pages/metode_.jsx";
+import Metode from "./pages/method.jsx";
 import Bayar from "./pages/bayar.jsx";
 
 const router = createBrowserRouter([
