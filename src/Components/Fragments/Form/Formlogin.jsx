@@ -1,4 +1,4 @@
-import { InputForm } from "../Elements/Input/Index";
+import { InputForm } from "../../Elements/Input/Index";
 
 function FormLogin() {
   const email = localStorage.getItem("email");

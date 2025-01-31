@@ -1,7 +1,7 @@
 // import InputForm from "../Elements/Input/Index";
 
-import { saveToLocalStorage } from "../../services/function_service";
-import { Input_nohp, InputForm } from "../Elements/Input/Index";
+import { saveToLocalStorage } from "../../../services/function_service";
+import { Input_nohp, InputForm } from "../../Elements/Input/Index";
 
 function FormRegister() {
   const handleregister = (e) => {

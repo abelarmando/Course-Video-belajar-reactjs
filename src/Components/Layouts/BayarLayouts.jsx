@@ -3,6 +3,7 @@ import { useState } from "react";
 import { getFromLocalStorage } from "../../services/function_service";
 import { Products } from "../Data/Data";
 import { Banks } from "../Data/Data";
+import Cara_Pembayaran from "../Fragments/Cara_Pembayaran";
 
 function BayarLayouts({ id }) {
   const [cart, setcart] = useState(getFromLocalStorage("cart") || []);
@@ -13,8 +14,9 @@ function BayarLayouts({ id }) {
   );
 
   return (
-    <div>
+    <div className="space-y-5">
       <Ringkasan_Pesanan hide="block" data={product} bank={bank} />
+      <Cara_Pembayaran databank={bank} />
     </div>
   );
 }
