@@ -1,4 +1,4 @@
-import CardProduct from "../Fragments/CardProduct";
+import CardProduct from "../Fragments/Card/CardProduct";
 import Kategori_kelas from "../Fragments/Kategori_kelas";
 import Banner from "../Fragments/Banner";
 import { Products } from "../Data/Data.jsx";

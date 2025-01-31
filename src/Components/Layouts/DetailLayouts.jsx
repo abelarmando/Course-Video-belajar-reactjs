@@ -5,7 +5,7 @@ import Card_Profile from "../Fragments/Keterangan/Card_Profile";
 import Deskripsi from "../Fragments/Keterangan/Deskripsi";
 import Keterangan_Course from "../Fragments/Keterangan/Keterangan_Course";
 import { Products } from "../Data/Data";
-import CardProduct from "../Fragments/CardProduct";
+import CardProduct from "../Fragments/Card/CardProduct";
 
 function DetailLayouts({ newProducts }) {
   const newdata = Products.filter((item) => item.id !== newProducts.id);

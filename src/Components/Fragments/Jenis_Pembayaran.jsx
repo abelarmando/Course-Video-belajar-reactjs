@@ -1,6 +1,6 @@
 import { Banks } from "../Data/Data";
 import { useEffect, useState } from "react";
-import Bank from "./Bank_Card";
+import Bank from "./Card/Bank_Card";
 
 function Jenis_Pembayaran({ setnewid, setcheckbox, newid, checkbox }) {
   const [digital] = useState(Banks.filter((item) => item.type === "digital"));

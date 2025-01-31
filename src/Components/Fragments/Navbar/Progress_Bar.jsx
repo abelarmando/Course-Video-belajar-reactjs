@@ -10,7 +10,7 @@ function Progress_Bar({ color1 = "#3A354161", color2 = "#3A354161" }) {
 
       <div className="flex items-center gap-2 relative">
         <hr
-          className={`border-2 w-20 absolute -translate-x-full bg-[${color1}] max-md:w-5`}
+          className={`border-2 w-20 absolute -translate-x-full border-[${color1}] max-md:w-5`}
         />
         <div
           className={`rounded-full border-2 border-[${color1}] h-6 w-6 flex items-center justify-center`}
@@ -23,7 +23,7 @@ function Progress_Bar({ color1 = "#3A354161", color2 = "#3A354161" }) {
 
       <div className="flex items-center gap-2 relative">
         <hr
-          className={`border-2 w-20 absolute -translate-x-full bg-[${color1}] max-md:w-5`}
+          className={`border-2 w-20 absolute -translate-x-full border-[${color2}] max-md:w-5`}
         />
         <div
           className={`rounded-full border-2 border-[${color2}] h-6 w-6 flex items-center justify-center`}

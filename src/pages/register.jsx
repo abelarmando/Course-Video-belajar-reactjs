@@ -1,5 +1,5 @@
 import AuthLayouts from "../Components/Layouts/AuthLayouts";
-import FormRegister from "../Components/Fragments/Formregister";
+import FormRegister from "../Components/Fragments/Form/Formregister";
 import Navbar from "../Components/Fragments/Navbar/Navbar";
 
 function Register() {
