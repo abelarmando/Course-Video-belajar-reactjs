@@ -10,6 +10,7 @@ import Produk from "./pages/produk.jsx";
 import Metode from "./pages/method.jsx";
 import Bayar from "./pages/bayar.jsx";
 import Ubah_Metode from "./pages/ubah_metode.jsx";
+import Selesai from "./pages/selesai.jsx";
 
 const router = createBrowserRouter([
   {
@@ -43,6 +44,10 @@ const router = createBrowserRouter([
   {
     path: "/ubahbayar/:id",
     element: <Ubah_Metode />,
+  },
+  {
+    path: "/selesai",
+    element: <Selesai />,
   },
 ]);
 
