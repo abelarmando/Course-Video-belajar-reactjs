@@ -35,13 +35,7 @@ function Ringkasan_Pesanan({ data, hide = "hidden", bank = {}, children }) {
           Rp {Rupiah.format(data.tagprice + admin)}
         </p>
       </div>
-      <button
-        className={`w-full rounded-md bg-[#3ECF4C] text-white h-10 ${
-          hide == "hidden" ? "block" : "hidden"
-        }`}
-      >
-        Beli Sekarang
-      </button>
+
       {children}
     </div>
   );

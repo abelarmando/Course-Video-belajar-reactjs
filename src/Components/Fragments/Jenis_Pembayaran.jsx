@@ -1,8 +1,15 @@
 import { Banks } from "../Data/Data";
-import { useEffect, useState } from "react";
+import { Children, useEffect, useState } from "react";
 import Bank from "./Card/Bank_Card";
 
-function Jenis_Pembayaran({ setnewid, setcheckbox, newid, checkbox }) {
+function Jenis_Pembayaran({
+  setnewid,
+  setcheckbox,
+  newid,
+  checkbox,
+  title,
+  children,
+}) {
   const [digital] = useState(Banks.filter((item) => item.type === "digital"));
   const [kredit] = useState(Banks.filter((item) => item.type === "kredit"));
   const [atm] = useState(Banks.filter((item) => item.type === "atm"));
@@ -21,7 +28,8 @@ function Jenis_Pembayaran({ setnewid, setcheckbox, newid, checkbox }) {
     }
   }, [newid]);
   return (
-    <ul className="space-y-3">
+    <ul className="space-y-3 border-[1px] border-[#F1F1F1] rounded-md p-5 bg-white ">
+      <h3 className="mb-3">{title}</h3>
       <li
         className="flex justify-between items-center border-[1px] border-[#F1F1F1] rounded-md p-3"
         onClick={() => setatmclick(!atmclick)}
@@ -94,6 +102,7 @@ function Jenis_Pembayaran({ setnewid, setcheckbox, newid, checkbox }) {
           </Bank>
         ))}
       </div>
+      {children}
     </ul>
   );
 }
