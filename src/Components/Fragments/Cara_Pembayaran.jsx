@@ -4,7 +4,7 @@ function Cara_Pembayaran({ databank }) {
   const [isclick2, setisclick2] = useState(false);
   const [isclick3, setisclick3] = useState(false);
   const [pembayaran] = useState(databank.pembayaran);
-  console.log(pembayaran);
+
   return (
     <div className="border-[1px] border-[#F1F1F1] rounded-md p-6 bg-white space-y-3">
       <h3>Tata Cara Pembayaran</h3>

@@ -1,5 +1,5 @@
 import Ringkasan_Pesanan from "../Fragments/Ringkasan_Pesanan";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { getFromLocalStorage } from "../../services/function_service";
 import { Products } from "../Data/Data";
 import { Banks } from "../Data/Data";
@@ -13,9 +13,10 @@ function BayarLayouts({ id }) {
   const [bank] = useState(
     Banks.find((item) => item.value == cartpayment.pembayaran)
   );
-  const [dif, setdiff] = useState(
-    new Date(cartpayment.tenggat).getTime() - new Date().getTime()
-  );
+  const [dif, setdiff] = useState();
+  useEffect(() => {
+    setdiff(new Date(cartpayment.tenggat).getTime() - new Date().getTime());
+  }, [dif]);
 
   return (
     <div className=" flex gap-9 max-md:flex-col-reverse">
@@ -23,7 +24,10 @@ function BayarLayouts({ id }) {
         <Ringkasan_Pesanan hide="block" data={product} bank={bank}>
           {dif > 0 && (
             <div className="md:flex items-center gap-2 max-md:space-y-2">
-              <button className="w-full border-[1px] border-[#3ECF4C] rounded-md text-[#3ECF4C] py-2">
+              <button
+                className="w-full border-[1px] border-[#3ECF4C] rounded-md text-[#3ECF4C] py-2"
+                onClick={() => (window.location.href = `/ubahbayar/${id}`)}
+              >
                 Ganti Metode Pembayaran
               </button>
               <button className="w-full border-[1px] bg-[#3ECF4C] rounded-md text-white py-2">

@@ -11,12 +11,13 @@ import {
 function MetodeLayouts({ id }) {
   const [checkbox, setcheckbox] = useState({});
   const [newid, setnewid] = useState();
+
   const [cart, setcart] = useState(getFromLocalStorage("cart") || []);
   const [noinvoice, setnoinvoice] = useState(cart.length + 1);
 
   const handlesubmit = (e) => {
     e.preventDefault();
-    console.log(newid);
+    // console.log(newid);
 
     if (newid < 0) {
       alert("Pilih Metode Pembayaran");
@@ -49,17 +50,20 @@ function MetodeLayouts({ id }) {
           className="space-y-4"
           aria-required="true"
         >
-          <div className="border-[1px] border-[#F1F1F1] rounded-md p-5 bg-white ">
-            <h3 className="mb-3">Metode Pembayaran</h3>
+          <Jenis_Pembayaran
+            newid={newid}
+            setnewid={setnewid}
+            setcheckbox={setcheckbox}
+            checkbox={checkbox}
+          />
 
-            <Jenis_Pembayaran
-              newid={newid}
-              setnewid={setnewid}
-              setcheckbox={setcheckbox}
-              checkbox={checkbox}
-            />
-          </div>
-          <Ringkasan_Pesanan data={Products[id - 1]} />
+          <Ringkasan_Pesanan data={Products[id - 1]}>
+            <button
+              className={`w-full rounded-md bg-[#3ECF4C] text-white h-10 `}
+            >
+              Beli Sekarang
+            </button>
+          </Ringkasan_Pesanan>
         </form>
       </div>
       <div className="md:w-[40%]">

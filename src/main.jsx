@@ -9,6 +9,7 @@ import Kategori from "./pages/kategori.jsx";
 import Produk from "./pages/produk.jsx";
 import Metode from "./pages/method.jsx";
 import Bayar from "./pages/bayar.jsx";
+import Ubah_Metode from "./pages/ubah_metode.jsx";
 
 const router = createBrowserRouter([
   {
@@ -38,6 +39,10 @@ const router = createBrowserRouter([
   {
     path: "/bayar/:id",
     element: <Bayar />,
+  },
+  {
+    path: "/ubahbayar/:id",
+    element: <Ubah_Metode />,
   },
 ]);
 
