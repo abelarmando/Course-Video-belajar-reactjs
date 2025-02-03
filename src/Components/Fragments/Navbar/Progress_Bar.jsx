@@ -1,6 +1,6 @@
 function Progress_Bar({ color1 = "#3A354161", color2 = "#3A354161" }) {
   return (
-    <div className="flex items-center gap-2 justify-between w-[470px] max-md:w-full">
+    <div className="flex items-center gap-2 justify-between w-[470px] max-md:w-full ">
       <div className="flex items-center gap-2">
         <div className="rounded-full border-2 border-[#3ECF4C] h-6 w-6 flex items-center justify-center">
           <div className="rounded-full bg-[#3ECF4C] h-4 w-4"></div>

@@ -48,11 +48,23 @@ body {
   height: 100%;
 }
 
+#kelas::-webkit-scrollbar {
+  height: 5px;
+}
+#kelas::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 5px;
+}
+
 @media screen and (max-width: 768px) {
   h2 {
     font-size: 16px;
   }
   p {
     font-size: 14px;
+  }
+  #kelas::-webkit-scrollbar-thumb {
+    background: white;
+    border-radius: 5px;
   }
 }

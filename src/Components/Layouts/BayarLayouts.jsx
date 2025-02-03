@@ -1,6 +1,9 @@
 import Ringkasan_Pesanan from "../Fragments/Ringkasan_Pesanan";
 import { useState, useEffect } from "react";
-import { getFromLocalStorage } from "../../services/function_service";
+import {
+  getFromLocalStorage,
+  saveToLocalStorage,
+} from "../../services/function_service";
 import { Products } from "../Data/Data";
 import { Banks } from "../Data/Data";
 import Cara_Pembayaran from "../Fragments/Cara_Pembayaran";
@@ -18,6 +21,12 @@ function BayarLayouts({ id }) {
     setdiff(new Date(cartpayment.tenggat).getTime() - new Date().getTime());
   }, [dif]);
 
+  const handlebayar = (id) => {
+    cart[id - 1].paid = true;
+    saveToLocalStorage("cart", cart);
+    window.location.href = `/keterangan/pesanan`;
+  };
+
   return (
     <div className=" flex gap-9 max-md:flex-col-reverse">
       <div className="md:w-[60%] space-y-9">
@@ -30,7 +39,10 @@ function BayarLayouts({ id }) {
               >
                 Ganti Metode Pembayaran
               </button>
-              <button className="w-full border-[1px] bg-[#3ECF4C] rounded-md text-white py-2">
+              <button
+                className="w-full border-[1px] bg-[#3ECF4C] rounded-md text-white py-2"
+                onClick={() => handlebayar(id)}
+              >
                 Bayar Sekarang
               </button>
             </div>

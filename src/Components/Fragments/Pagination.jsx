@@ -19,7 +19,7 @@ function Pagination({ totalPost, postsPerPage, setCurrentPage, CurrentPage }) {
   return (
     <div className="flex gap-2 justify-end">
       <img
-        src="./images/Icon/Icon/Pagination/Left_Vector.svg"
+        src="/images/Icon/Icon/Pagination/Left_Vector.svg"
         alt=""
         className="bg-[#F4F5FA] p-2 rounded-sm cursor-pointer"
         onClick={() => HandleClikeDecrement()}
@@ -36,7 +36,7 @@ function Pagination({ totalPost, postsPerPage, setCurrentPage, CurrentPage }) {
         </button>
       ))}
       <img
-        src="./images/Icon/Icon/Pagination/Right_Vector.svg"
+        src="/images/Icon/Icon/Pagination/Right_Vector.svg"
         alt=""
         className="bg-[#F4F5FA] p-2 rounded-sm cursor-pointer"
         onClick={() => HandleClikeIncrement()}

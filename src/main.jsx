@@ -11,6 +11,7 @@ import Metode from "./pages/method.jsx";
 import Bayar from "./pages/bayar.jsx";
 import Ubah_Metode from "./pages/ubah_metode.jsx";
 import Selesai from "./pages/selesai.jsx";
+import Keterangan from "./pages/keterangan.jsx";
 
 const router = createBrowserRouter([
   {
@@ -48,6 +49,10 @@ const router = createBrowserRouter([
   {
     path: "/selesai",
     element: <Selesai />,
+  },
+  {
+    path: "/keterangan/:category",
+    element: <Keterangan />,
   },
 ]);
 
