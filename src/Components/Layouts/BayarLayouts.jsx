@@ -24,7 +24,7 @@ function BayarLayouts({ id }) {
   const handlebayar = (id) => {
     cart[id - 1].paid = true;
     saveToLocalStorage("cart", cart);
-    window.location.href = `/keterangan/pesanan`;
+    window.location.href = `/selesai`;
   };
 
   return (
