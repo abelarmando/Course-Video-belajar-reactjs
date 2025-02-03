@@ -1,7 +1,7 @@
 import Book from "../Icon/Book";
 import Profile from "../Icon/Profile";
 import Bag from "../Icon/Bag";
-import Cart_list from "../Fragments/Cart_list";
+import Cart_List from "../Fragments/Cart_list.jsx";
 function keteranganLayouts({ category }) {
   console.log(typeof category, category);
   return (
@@ -33,7 +33,7 @@ function keteranganLayouts({ category }) {
           </div>
         </div>
       </div>
-      <div className="md:w-[80%]">{category == "pesanan" && <Cart_list />}</div>
+      <div className="md:w-[80%]">{category == "pesanan" && <Cart_List />}</div>
     </div>
   );
 }
