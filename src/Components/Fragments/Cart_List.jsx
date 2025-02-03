@@ -4,7 +4,7 @@ import FilterKelas from "./FilterKelas";
 import Card_Cart from "./Card/Card_Cart";
 import { Products } from "../Data/Data";
 import Pagination from "./Pagination";
-function Cart_List() {
+function Cart_list() {
   const [Cart, setCart] = useState(getFromLocalStorage("cart") || []);
   const [CurrentPage, setCurrentPage] = useState(1);
   const [PostsPerPage] = useState(4);
@@ -65,4 +65,4 @@ function Cart_List() {
   );
 }
 
-export default Cart_List;
+export default Cart_list;
