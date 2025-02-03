@@ -28,7 +28,7 @@ function Selesai() {
           </div>
           <button
             className="bg-[#3ECF4C] rounded-md py-2 px-6 text-white h-fit w-fit"
-            onClick={() => (window.location.href = "/keterangan")}
+            onClick={() => (window.location.href = "/keterangan/pesanan")}
           >
             Lihat Detail Pesanan
           </button>
