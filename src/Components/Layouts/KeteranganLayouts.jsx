@@ -1,7 +1,7 @@
 import Book from "../Icon/Book";
 import Profile from "../Icon/Profile";
 import Bag from "../Icon/Bag";
-import Cart_List from "../Fragments/Cart_list";
+import Cart_List from "./Cart_List";
 
 function keteranganLayouts({ category }) {
   console.log(typeof category, category);
