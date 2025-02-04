@@ -3,7 +3,7 @@ function Card_Cart({ id, invoice, tenggat, title, price, img, paid, diff }) {
 
   return (
     <div
-      className="border-[1px] border-[#F1F1F1] rounded-md  space-y-3"
+      className="border-[1px] border-[#F1F1F1] rounded-md space-y-3"
       key={id}
     >
       <div className="bg-[#E2FCD933] py-4 px-5 flex max-md:flex-wrap justify-between md:items-center border-b-[1px] border-[#F1F1F1]">
