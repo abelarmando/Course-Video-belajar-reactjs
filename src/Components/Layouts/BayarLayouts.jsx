@@ -20,9 +20,12 @@ function BayarLayouts({ id }) {
   useEffect(() => {
     setdiff(new Date(cartpayment.tenggat).getTime() - new Date().getTime());
   }, [dif]);
+  const [Myclass, setMyclass] = useState(getFromLocalStorage("myclass") || []);
 
   const handlebayar = (id) => {
     cart[id - 1].paid = true;
+    setMyclass([...Myclass, { terlesesaikan: 0, Product: Products[id - 1] }]);
+    saveToLocalStorage("myclass", Myclass);
     saveToLocalStorage("cart", cart);
     window.location.href = `/selesai`;
   };
