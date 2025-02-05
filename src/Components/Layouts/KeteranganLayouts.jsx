@@ -4,10 +4,9 @@ import Bag from "../Icon/Bag";
 import Cart_tab from "../Fragments/Cart_tab";
 import MyClass_List from "../Fragments/List/MyClass_List";
 function keteranganLayouts({ category }) {
-  console.log(typeof category, category);
   return (
     <div className="md:flex gap-5 max-md:space-y-6">
-      <div className="w-fit  ">
+      <div className="md:w-fit  ">
         <h4>Daftar Pesanan</h4>
         <p>Informasi terperinci mengenai pembelian</p>
         <div className="bg-white rounded-md border-[1px] border-[#F1F1F1] p-5 space-y-6 mt-3 cursor-pointer">
