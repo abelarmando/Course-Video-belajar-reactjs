@@ -20,12 +20,20 @@ function BayarLayouts({ id }) {
   useEffect(() => {
     setdiff(new Date(cartpayment.tenggat).getTime() - new Date().getTime());
   }, [dif]);
+  const [Myclass, setMyclass] = useState(getFromLocalStorage("myclass") || []);
 
   const handlebayar = (id) => {
     cart[id - 1].paid = true;
+    setMyclass([
+      ...Myclass,
+      { progress: 0, selesai: false, Product: Products[id - 1] },
+    ]);
     saveToLocalStorage("cart", cart);
     window.location.href = `/selesai`;
   };
+  useEffect(() => {
+    saveToLocalStorage("myclass", Myclass);
+  }, [Myclass]);
 
   return (
     <div className=" flex gap-9 max-md:flex-col-reverse">
