@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 function Footer() {
   return (
-    <footer className="py-16 px-32 w-full bg-white h-fit space-y-2 border-t-[1px] border-[#F1F1F1] max-md:p-5">
+    <footer className="py-16 px-32 w-full bg-white h-fit space-y-2 border-t-[1px] border-[#F1F1F1] max-md:p-5 ">
       <div className="flex justify-between  max-md:flex-col">
         <div className=" space-y-4 w-80">
           <img src="/images/Logo_videobelajar.svg" alt="VideoBelajar" />

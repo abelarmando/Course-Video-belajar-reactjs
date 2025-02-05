@@ -15,10 +15,10 @@ function Cart_tab() {
   const currentCart = Cart.slice(indexOfFirstPost, indexOfLastPost);
 
   return (
-    <div className="border-[1px] border-[#F1F1F1] rounded-md p-5 bg-white space-y-3">
+    <div className="border-[1px] border-[#F1F1F1] rounded-md p-5 bg-white space-y-3 w-full">
       <div className="md:flex items-center space-y-3">
         <ul
-          className="flex gap-9 overflow-x-auto overflow-y-hidden  h-10 w-full"
+          className="flex gap-9 overflow-x-auto overflow-y-hidden h-10 w-full"
           id="kelas"
         >
           <li
