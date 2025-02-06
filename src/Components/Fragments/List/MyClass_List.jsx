@@ -35,11 +35,11 @@ function MyClass_List() {
         </ul>
         <FilterKelas />
       </div>
-      {myclass.map((item, i) => (
+      {currentclass.map((item, i) => (
         <Card_Myclass
           key={i}
           img={item.Product.imgproduct}
-          title={item.Product.titlepage}
+          title={item.Product.title}
           text={item.Product.text}
           author={item.Product.author}
           position={item.Product.position}

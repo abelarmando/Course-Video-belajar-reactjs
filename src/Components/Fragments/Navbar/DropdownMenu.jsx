@@ -13,7 +13,7 @@ function DropdownMenu() {
       <li className="border-b-[1px] border-[#F1F1F1] p-3">Kelas Saya</li>
       <li className="border-b-[1px] border-[#F1F1F1] p-3 ">Pesanan Saya</li>
       <li
-        className="flex gap-2 p-3 text-red-500"
+        className="flex gap-2 p-3 text-red-500 cursor-pointer"
         onClick={() => handlelogout()}
       >
         Keluar

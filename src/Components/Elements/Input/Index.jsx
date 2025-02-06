@@ -1,31 +1,32 @@
 import { Link } from "react-router-dom";
-import { useRef } from "react";
+import { forwardRef } from "react";
 
-export function InputForm(props) {
-  const { classname, placeholder, name, title, id } = props;
-
-  return (
-    <div className="w-full flex flex-col relative my-2">
-      <label htmlFor={name}>{title}</label>
-      <input
-        type={name}
-        className={classname}
-        placeholder={placeholder}
-        name={name}
-        id={id}
-        required
-      />
-
-      {name === "password" && (
-        <img
-          src="./images/Icon/Icon/mdi_eye-off.svg"
-          alt="eye"
-          className="absolute right-3 top-1/2 cursor-pointer"
+export const InputForm = forwardRef(
+  ({ classname, placeholder, name, title, id }, ref) => {
+    return (
+      <div className="w-full flex flex-col relative my-2">
+        <label htmlFor={name}>{title}</label>
+        <input
+          type={name}
+          className={classname}
+          placeholder={placeholder}
+          name={name}
+          id={id}
+          ref={ref}
+          required
         />
-      )}
-    </div>
-  );
-}
+
+        {name === "password" && (
+          <img
+            src="./images/Icon/Icon/mdi_eye-off.svg"
+            alt="eye"
+            className="absolute right-3 top-1/2 cursor-pointer"
+          />
+        )}
+      </div>
+    );
+  }
+);
 
 export function Input_nohp(props) {
   const { name, title, codearea, bendera, placeholder } = props;
