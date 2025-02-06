@@ -15,8 +15,8 @@ function FormLogin() {
     const log = users.find((x) => x.email === emailref.current.value);
 
     if (
-      e.target.email.value == log.email &&
-      e.target.password.value == log.password
+      emailref.current.value == log.email &&
+      passwordref.current.value == log.password
     ) {
       localStorage.setItem("islogin", true);
       window.location.href = "/";
