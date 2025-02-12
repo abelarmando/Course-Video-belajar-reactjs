@@ -8,6 +8,9 @@ function FormRegister() {
   const [input, setinput] = useState({});
   const [user, setuser] = useState();
   const [inpemail, setinpemail] = useState();
+  const [codeareanum] = useState(62);
+  // const codearea = document.getElementById("codearea");
+  // console.log(codearea);
 
   const handleregister = (e) => {
     e.preventDefault();
@@ -22,8 +25,10 @@ function FormRegister() {
       setinput({
         name: e.target.text.value,
         email: e.target.email.value,
-        number: e.target.number.value,
+        handphone: { number: e.target.number.value, code: codeareanum },
         password: e.target.password1.value,
+        mycart: [],
+        myclass: [],
       });
 
       alert("Pendaftaran Berhasil");
@@ -65,7 +70,7 @@ function FormRegister() {
         name="number"
         title="No HP"
         id="number"
-        codearea={62}
+        codearea={codeareanum}
         bendera="./images/Icon/Icon/Indonesia.svg"
         placeholder=""
       />

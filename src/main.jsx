@@ -12,6 +12,7 @@ import Bayar from "./pages/bayar.jsx";
 import Ubah_Metode from "./pages/ubah_metode.jsx";
 import Selesai from "./pages/selesai.jsx";
 import Keterangan from "./pages/keterangan.jsx";
+import Course from "./pages/course.jsx";
 
 const router = createBrowserRouter([
   {
@@ -53,6 +54,10 @@ const router = createBrowserRouter([
   {
     path: "/keterangan/:category",
     element: <Keterangan />,
+  },
+  {
+    path: "/:id/course/:course",
+    element: <Course />,
   },
 ]);
 

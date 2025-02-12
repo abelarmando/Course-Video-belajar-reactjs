@@ -28,9 +28,7 @@ export const InputForm = forwardRef(
   }
 );
 
-export function Input_nohp(props) {
-  const { name, title, codearea, bendera, placeholder } = props;
-
+export function Input_nohp({ name, title, codearea, bendera, placeholder }) {
   return (
     <div className="w-full">
       <label htmlFor={name}>{title}</label>

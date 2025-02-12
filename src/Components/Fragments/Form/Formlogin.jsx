@@ -13,7 +13,7 @@ function FormLogin() {
     e.preventDefault();
 
     const log = users.find((x) => x.email === emailref.current.value);
-
+    if (!log) return alert("Email Tidak Terdaftar");
     if (
       emailref.current.value == log.email &&
       passwordref.current.value == log.password
