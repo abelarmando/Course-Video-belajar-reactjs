@@ -1,35 +1,30 @@
 import { useEffect, useState, useRef } from "react";
 import { InputForm } from "../../Elements/Input/Index";
-import { getAllUsers } from "../../../services/users.function";
+
+import AllUser from "../../../Hooks/AllUser";
+import { saveToLocalStorage } from "../../../services/function_service";
 
 function FormLogin() {
-  const [users, setusers] = useState([]);
-  const [newlogin, setnewlogin] = useState({});
   const emailref = useRef();
   const passwordref = useRef();
-  const [email, setemail] = useState();
+  const users = AllUser();
 
   const handlelogin = (e) => {
     e.preventDefault();
 
     const log = users.find((x) => x.email === emailref.current.value);
-
+    if (!log) return alert("Email Tidak Terdaftar");
     if (
-      e.target.email.value == log.email &&
-      e.target.password.value == log.password
+      emailref.current.value == log.email &&
+      passwordref.current.value == log.password
     ) {
       localStorage.setItem("islogin", true);
+      saveToLocalStorage("user", log);
       window.location.href = "/";
     } else {
       alert("Email atau Kata Sandi Salah");
     }
   };
-
-  useEffect(() => {
-    getAllUsers((data) => {
-      setusers(data);
-    });
-  }, []);
 
   return (
     <form onSubmit={handlelogin} className="w-full">

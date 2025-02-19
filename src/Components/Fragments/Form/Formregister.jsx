@@ -1,18 +1,22 @@
 // import InputForm from "../Elements/Input/Index";
 import { useEffect, useState } from "react";
-import { saveToLocalStorage } from "../../../services/function_service";
 import { Input_nohp, InputForm } from "../../Elements/Input/Index";
 import { getAllUsers, postuser } from "../../../services/users.function";
+import AllUser from "../../../Hooks/AllUser";
 
 function FormRegister() {
-  const [input, setinput] = useState({});
-  const [user, setuser] = useState();
+  const [input, setinput] = useState();
+  // const [user, setuser] = useState();
   const [inpemail, setinpemail] = useState();
+  const [codeareanum] = useState(62);
+  const users = AllUser();
+  // const codearea = document.getElementById("codearea");
+  // console.log(codearea);
 
   const handleregister = (e) => {
     e.preventDefault();
 
-    if (user.find((x) => x.email == inpemail))
+    if (users.find((x) => x.email == inpemail))
       return alert("email sudah terdaftar");
 
     if (e.target.password2.value != e.target.password1.value) {
@@ -22,8 +26,10 @@ function FormRegister() {
       setinput({
         name: e.target.text.value,
         email: e.target.email.value,
-        number: e.target.number.value,
+        handphone: { number: e.target.number.value, code: codeareanum },
         password: e.target.password1.value,
+        mycart: [],
+        myclass: [],
       });
 
       alert("Pendaftaran Berhasil");
@@ -31,14 +37,11 @@ function FormRegister() {
     }
   };
   useEffect(() => {
+    if (!input) return;
+
     postuser(input);
   }, [input]);
 
-  useEffect(() => {
-    getAllUsers((data) => {
-      setuser(data);
-    });
-  }, []);
   return (
     <form onSubmit={handleregister} className="w-full">
       <InputForm
@@ -65,7 +68,7 @@ function FormRegister() {
         name="number"
         title="No HP"
         id="number"
-        codearea={62}
+        codearea={codeareanum}
         bendera="./images/Icon/Icon/Indonesia.svg"
         placeholder=""
       />

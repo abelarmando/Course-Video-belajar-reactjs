@@ -1,5 +1,6 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import DropdownKategori from "./Dropdown/DropdownKategori";
+
 const FilterKategoriNama = [
   "Pemasaran",
   "Digital & Teknologi",
@@ -17,6 +18,7 @@ function FilterKategori() {
   const [DropMenu1, setDropMenu1] = useState(false);
   const [DropMenu2, setDropMenu2] = useState(false);
   const [DropMenu3, setDropMenu3] = useState(false);
+  useEffect(() => {}, []);
 
   return (
     <div className="w-[400px] h-fit border-[1px] border-[#F1F1F1] p-5 rounded-md bg-white space-y-3 max-md:w-full mb-4">
