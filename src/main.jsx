@@ -12,6 +12,8 @@ import Bayar from "./pages/bayar.jsx";
 import Ubah_Metode from "./pages/ubah_metode.jsx";
 import Selesai from "./pages/selesai.jsx";
 import Keterangan from "./pages/keterangan.jsx";
+import Course from "./pages/course.jsx";
+const islogin = localStorage.getItem("islogin");
 
 const router = createBrowserRouter([
   {
@@ -36,23 +38,27 @@ const router = createBrowserRouter([
   },
   {
     path: "/metode/:id",
-    element: <Metode />,
+    element: islogin === "true" ? <Metode /> : <Login />,
   },
   {
     path: "/bayar/:id",
-    element: <Bayar />,
+    element: islogin === "true" ? <Bayar /> : <Login />,
   },
   {
     path: "/ubahbayar/:id",
-    element: <Ubah_Metode />,
+    element: islogin === "true" ? <Ubah_Metode /> : <Login />,
   },
   {
     path: "/selesai",
-    element: <Selesai />,
+    element: islogin === "true" ? <Selesai /> : <Login />,
   },
   {
     path: "/keterangan/:category",
-    element: <Keterangan />,
+    element: islogin === "true" ? <Keterangan /> : <Login />,
+  },
+  {
+    path: "/:id/course/:courseid/:materiid",
+    element: islogin === "true" ? <Course /> : <Login />,
   },
 ]);
 

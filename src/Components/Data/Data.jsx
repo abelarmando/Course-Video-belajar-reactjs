@@ -42,9 +42,24 @@ export const Products = [
           "Introduction to Course 1: Foundations of User Experience Design",
         isClicked: false,
         materi: [
-          "The basics of user experience design",
-          "Jobs in the field of user experience",
-          "The product development life cycle",
+          {
+            id: 1,
+            title: "The basics of user experience design",
+            titlepage: "Praktikkan Skill dengan Technical Book",
+            text: "1",
+          },
+          {
+            id: 2,
+            title: "Jobs in the field of user experience",
+            titlepage: "Praktikkan Skill dengan Technical Book",
+            text: "2",
+          },
+          {
+            id: 3,
+            title: "The product development life cycle",
+            titlepage: "Praktikkan Skill dengan Technical Book",
+            text: "Pelajari dan praktikkan skill teknis dalam berbagai industri dengan Technical Book Riselearn",
+          },
         ],
       },
       {
@@ -52,9 +67,24 @@ export const Products = [
         judul: "Universal design, inclusive design, and equity-focused design",
         isClicked: false,
         materi: [
-          "The basics of user experience design",
-          "Jobs in the field of user experience",
-          "The product development life cycle",
+          {
+            id: 1,
+            title: "The basics of user experience design",
+            titlepage: "Praktikkan Skill dengan Technical Book",
+            text: "Pelajari dan praktikkan skill teknis dalam berbagai industri dengan Technical Book Riselearn",
+          },
+          {
+            id: 2,
+            title: "Jobs in the field of user experience",
+            titlepage: "Praktikkan Skill dengan Technical Book",
+            text: "Pelajari dan praktikkan skill teknis dalam berbagai industri dengan Technical Book Riselearn",
+          },
+          {
+            id: 3,
+            title: "The product development life cycle",
+            titlepage: "Praktikkan Skill dengan Technical Book",
+            text: "Pelajari dan praktikkan skill teknis dalam berbagai industri dengan Technical Book Riselearn",
+          },
         ],
       },
       {
@@ -62,9 +92,24 @@ export const Products = [
         judul: "Introduction to design sprints",
         isClicked: false,
         materi: [
-          "The basics of user experience design",
-          "Jobs in the field of user experience",
-          "The product development life cycle",
+          {
+            id: 1,
+            title: "The basics of user experience design",
+            titlepage: "Praktikkan Skill dengan Technical Book",
+            text: "Pelajari dan praktikkan skill teknis dalam berbagai industri dengan Technical Book Riselearn",
+          },
+          {
+            id: 2,
+            title: "Jobs in the field of user experience",
+            titlepage: "Praktikkan Skill dengan Technical Book",
+            text: "Pelajari dan praktikkan skill teknis dalam berbagai industri dengan Technical Book Riselearn",
+          },
+          {
+            id: 3,
+            title: "The product development life cycle",
+            titlepage: "Praktikkan Skill dengan Technical Book",
+            text: "Pelajari dan praktikkan skill teknis dalam berbagai industri dengan Technical Book Riselearn",
+          },
         ],
       },
       {
@@ -72,9 +117,24 @@ export const Products = [
         judul: "Introduction to UX research",
         isClicked: false,
         materi: [
-          "The basics of user experience design",
-          "Jobs in the field of user experience",
-          "The product development life cycle",
+          {
+            id: 1,
+            title: "The basics of user experience design",
+            titlepage: "Praktikkan Skill dengan Technical Book",
+            text: "Pelajari dan praktikkan skill teknis dalam berbagai industri dengan Technical Book Riselearn",
+          },
+          {
+            id: 2,
+            title: "Jobs in the field of user experience",
+            titlepage: "Praktikkan Skill dengan Technical Book",
+            text: "Pelajari dan praktikkan skill teknis dalam berbagai industri dengan Technical Book Riselearn",
+          },
+          {
+            id: 3,
+            title: "The product development life cycle",
+            titlepage: "Praktikkan Skill dengan Technical Book",
+            text: "Pelajari dan praktikkan skill teknis dalam berbagai industri dengan Technical Book Riselearn",
+          },
         ],
       },
     ],
@@ -170,9 +230,24 @@ export const Products = [
           "Introduction to Course 1: Foundations of User Experience Design",
         isClicked: false,
         materi: [
-          "The basics of user experience design",
-          "Jobs in the field of user experience",
-          "The product development life cycle",
+          {
+            id: 1,
+            title: "The basics of user experience design",
+            titlepage: "Praktikkan Skill dengan Technical Book",
+            text: "Pelajari dan praktikkan skill teknis dalam berbagai industri dengan Technical Book Riselearn",
+          },
+          {
+            id: 2,
+            title: "Jobs in the field of user experience",
+            titlepage: "Praktikkan Skill dengan Technical Book",
+            text: "Pelajari dan praktikkan skill teknis dalam berbagai industri dengan Technical Book Riselearn",
+          },
+          {
+            id: 3,
+            title: "The product development life cycle",
+            titlepage: "Praktikkan Skill dengan Technical Book",
+            text: "Pelajari dan praktikkan skill teknis dalam berbagai industri dengan Technical Book Riselearn",
+          },
         ],
       },
       {
@@ -180,9 +255,24 @@ export const Products = [
         judul: "Universal design, inclusive design, and equity-focused design",
         isClicked: false,
         materi: [
-          "The basics of user experience design",
-          "Jobs in the field of user experience",
-          "The product development life cycle",
+          {
+            id: 1,
+            title: "The basics of user experience design",
+            titlepage: "Praktikkan Skill dengan Technical Book",
+            text: "Pelajari dan praktikkan skill teknis dalam berbagai industri dengan Technical Book Riselearn",
+          },
+          {
+            id: 2,
+            title: "Jobs in the field of user experience",
+            titlepage: "Praktikkan Skill dengan Technical Book",
+            text: "Pelajari dan praktikkan skill teknis dalam berbagai industri dengan Technical Book Riselearn",
+          },
+          {
+            id: 3,
+            title: "The product development life cycle",
+            titlepage: "Praktikkan Skill dengan Technical Book",
+            text: "Pelajari dan praktikkan skill teknis dalam berbagai industri dengan Technical Book Riselearn",
+          },
         ],
       },
       {
@@ -190,9 +280,24 @@ export const Products = [
         judul: "Introduction to design sprints",
         isClicked: false,
         materi: [
-          "The basics of user experience design",
-          "Jobs in the field of user experience",
-          "The product development life cycle",
+          {
+            id: 1,
+            title: "The basics of user experience design",
+            titlepage: "Praktikkan Skill dengan Technical Book",
+            text: "Pelajari dan praktikkan skill teknis dalam berbagai industri dengan Technical Book Riselearn",
+          },
+          {
+            id: 2,
+            title: "Jobs in the field of user experience",
+            titlepage: "Praktikkan Skill dengan Technical Book",
+            text: "Pelajari dan praktikkan skill teknis dalam berbagai industri dengan Technical Book Riselearn",
+          },
+          {
+            id: 3,
+            title: "The product development life cycle",
+            titlepage: "Praktikkan Skill dengan Technical Book",
+            text: "Pelajari dan praktikkan skill teknis dalam berbagai industri dengan Technical Book Riselearn",
+          },
         ],
       },
       {
@@ -200,9 +305,24 @@ export const Products = [
         judul: "Introduction to UX research",
         isClicked: false,
         materi: [
-          "The basics of user experience design",
-          "Jobs in the field of user experience",
-          "The product development life cycle",
+          {
+            id: 1,
+            title: "The basics of user experience design",
+            titlepage: "Praktikkan Skill dengan Technical Book",
+            text: "Pelajari dan praktikkan skill teknis dalam berbagai industri dengan Technical Book Riselearn",
+          },
+          {
+            id: 2,
+            title: "Jobs in the field of user experience",
+            titlepage: "Praktikkan Skill dengan Technical Book",
+            text: "Pelajari dan praktikkan skill teknis dalam berbagai industri dengan Technical Book Riselearn",
+          },
+          {
+            id: 3,
+            title: "The product development life cycle",
+            titlepage: "Praktikkan Skill dengan Technical Book",
+            text: "Pelajari dan praktikkan skill teknis dalam berbagai industri dengan Technical Book Riselearn",
+          },
         ],
       },
     ],
@@ -298,9 +418,24 @@ export const Products = [
           "Introduction to Course 1: Foundations of User Experience Design",
         isClicked: false,
         materi: [
-          "The basics of user experience design",
-          "Jobs in the field of user experience",
-          "The product development life cycle",
+          {
+            id: 1,
+            title: "The basics of user experience design",
+            titlepage: "Praktikkan Skill dengan Technical Book",
+            text: "Pelajari dan praktikkan skill teknis dalam berbagai industri dengan Technical Book Riselearn",
+          },
+          {
+            id: 2,
+            title: "Jobs in the field of user experience",
+            titlepage: "Praktikkan Skill dengan Technical Book",
+            text: "Pelajari dan praktikkan skill teknis dalam berbagai industri dengan Technical Book Riselearn",
+          },
+          {
+            id: 3,
+            title: "The product development life cycle",
+            titlepage: "Praktikkan Skill dengan Technical Book",
+            text: "Pelajari dan praktikkan skill teknis dalam berbagai industri dengan Technical Book Riselearn",
+          },
         ],
       },
       {
@@ -308,9 +443,24 @@ export const Products = [
         judul: "Universal design, inclusive design, and equity-focused design",
         isClicked: false,
         materi: [
-          "The basics of user experience design",
-          "Jobs in the field of user experience",
-          "The product development life cycle",
+          {
+            id: 1,
+            title: "The basics of user experience design",
+            titlepage: "Praktikkan Skill dengan Technical Book",
+            text: "Pelajari dan praktikkan skill teknis dalam berbagai industri dengan Technical Book Riselearn",
+          },
+          {
+            id: 2,
+            title: "Jobs in the field of user experience",
+            titlepage: "Praktikkan Skill dengan Technical Book",
+            text: "Pelajari dan praktikkan skill teknis dalam berbagai industri dengan Technical Book Riselearn",
+          },
+          {
+            id: 3,
+            title: "The product development life cycle",
+            titlepage: "Praktikkan Skill dengan Technical Book",
+            text: "Pelajari dan praktikkan skill teknis dalam berbagai industri dengan Technical Book Riselearn",
+          },
         ],
       },
       {
@@ -318,9 +468,24 @@ export const Products = [
         judul: "Introduction to design sprints",
         isClicked: false,
         materi: [
-          "The basics of user experience design",
-          "Jobs in the field of user experience",
-          "The product development life cycle",
+          {
+            id: 1,
+            title: "The basics of user experience design",
+            titlepage: "Praktikkan Skill dengan Technical Book",
+            text: "Pelajari dan praktikkan skill teknis dalam berbagai industri dengan Technical Book Riselearn",
+          },
+          {
+            id: 2,
+            title: "Jobs in the field of user experience",
+            titlepage: "Praktikkan Skill dengan Technical Book",
+            text: "Pelajari dan praktikkan skill teknis dalam berbagai industri dengan Technical Book Riselearn",
+          },
+          {
+            id: 3,
+            title: "The product development life cycle",
+            titlepage: "Praktikkan Skill dengan Technical Book",
+            text: "Pelajari dan praktikkan skill teknis dalam berbagai industri dengan Technical Book Riselearn",
+          },
         ],
       },
       {
@@ -328,9 +493,24 @@ export const Products = [
         judul: "Introduction to UX research",
         isClicked: false,
         materi: [
-          "The basics of user experience design",
-          "Jobs in the field of user experience",
-          "The product development life cycle",
+          {
+            id: 1,
+            title: "The basics of user experience design",
+            titlepage: "Praktikkan Skill dengan Technical Book",
+            text: "Pelajari dan praktikkan skill teknis dalam berbagai industri dengan Technical Book Riselearn",
+          },
+          {
+            id: 2,
+            title: "Jobs in the field of user experience",
+            titlepage: "Praktikkan Skill dengan Technical Book",
+            text: "Pelajari dan praktikkan skill teknis dalam berbagai industri dengan Technical Book Riselearn",
+          },
+          {
+            id: 3,
+            title: "The product development life cycle",
+            titlepage: "Praktikkan Skill dengan Technical Book",
+            text: "Pelajari dan praktikkan skill teknis dalam berbagai industri dengan Technical Book Riselearn",
+          },
         ],
       },
     ],
@@ -426,9 +606,24 @@ export const Products = [
           "Introduction to Course 1: Foundations of User Experience Design",
         isClicked: false,
         materi: [
-          "The basics of user experience design",
-          "Jobs in the field of user experience",
-          "The product development life cycle",
+          {
+            id: 1,
+            title: "The basics of user experience design",
+            titlepage: "Praktikkan Skill dengan Technical Book",
+            text: "Pelajari dan praktikkan skill teknis dalam berbagai industri dengan Technical Book Riselearn",
+          },
+          {
+            id: 2,
+            title: "Jobs in the field of user experience",
+            titlepage: "Praktikkan Skill dengan Technical Book",
+            text: "Pelajari dan praktikkan skill teknis dalam berbagai industri dengan Technical Book Riselearn",
+          },
+          {
+            id: 3,
+            title: "The product development life cycle",
+            titlepage: "Praktikkan Skill dengan Technical Book",
+            text: "Pelajari dan praktikkan skill teknis dalam berbagai industri dengan Technical Book Riselearn",
+          },
         ],
       },
       {
@@ -436,9 +631,24 @@ export const Products = [
         judul: "Universal design, inclusive design, and equity-focused design",
         isClicked: false,
         materi: [
-          "The basics of user experience design",
-          "Jobs in the field of user experience",
-          "The product development life cycle",
+          {
+            id: 1,
+            title: "The basics of user experience design",
+            titlepage: "Praktikkan Skill dengan Technical Book",
+            text: "Pelajari dan praktikkan skill teknis dalam berbagai industri dengan Technical Book Riselearn",
+          },
+          {
+            id: 2,
+            title: "Jobs in the field of user experience",
+            titlepage: "Praktikkan Skill dengan Technical Book",
+            text: "Pelajari dan praktikkan skill teknis dalam berbagai industri dengan Technical Book Riselearn",
+          },
+          {
+            id: 3,
+            title: "The product development life cycle",
+            titlepage: "Praktikkan Skill dengan Technical Book",
+            text: "Pelajari dan praktikkan skill teknis dalam berbagai industri dengan Technical Book Riselearn",
+          },
         ],
       },
       {
@@ -446,9 +656,24 @@ export const Products = [
         judul: "Introduction to design sprints",
         isClicked: false,
         materi: [
-          "The basics of user experience design",
-          "Jobs in the field of user experience",
-          "The product development life cycle",
+          {
+            id: 1,
+            title: "The basics of user experience design",
+            titlepage: "Praktikkan Skill dengan Technical Book",
+            text: "Pelajari dan praktikkan skill teknis dalam berbagai industri dengan Technical Book Riselearn",
+          },
+          {
+            id: 2,
+            title: "Jobs in the field of user experience",
+            titlepage: "Praktikkan Skill dengan Technical Book",
+            text: "Pelajari dan praktikkan skill teknis dalam berbagai industri dengan Technical Book Riselearn",
+          },
+          {
+            id: 3,
+            title: "The product development life cycle",
+            titlepage: "Praktikkan Skill dengan Technical Book",
+            text: "Pelajari dan praktikkan skill teknis dalam berbagai industri dengan Technical Book Riselearn",
+          },
         ],
       },
       {
@@ -456,9 +681,24 @@ export const Products = [
         judul: "Introduction to UX research",
         isClicked: false,
         materi: [
-          "The basics of user experience design",
-          "Jobs in the field of user experience",
-          "The product development life cycle",
+          {
+            id: 1,
+            title: "The basics of user experience design",
+            titlepage: "Praktikkan Skill dengan Technical Book",
+            text: "Pelajari dan praktikkan skill teknis dalam berbagai industri dengan Technical Book Riselearn",
+          },
+          {
+            id: 2,
+            title: "Jobs in the field of user experience",
+            titlepage: "Praktikkan Skill dengan Technical Book",
+            text: "Pelajari dan praktikkan skill teknis dalam berbagai industri dengan Technical Book Riselearn",
+          },
+          {
+            id: 3,
+            title: "The product development life cycle",
+            titlepage: "Praktikkan Skill dengan Technical Book",
+            text: "Pelajari dan praktikkan skill teknis dalam berbagai industri dengan Technical Book Riselearn",
+          },
         ],
       },
     ],
@@ -554,9 +794,24 @@ export const Products = [
           "Introduction to Course 1: Foundations of User Experience Design",
         isClicked: false,
         materi: [
-          "The basics of user experience design",
-          "Jobs in the field of user experience",
-          "The product development life cycle",
+          {
+            id: 1,
+            title: "The basics of user experience design",
+            titlepage: "Praktikkan Skill dengan Technical Book",
+            text: "Pelajari dan praktikkan skill teknis dalam berbagai industri dengan Technical Book Riselearn",
+          },
+          {
+            id: 2,
+            title: "Jobs in the field of user experience",
+            titlepage: "Praktikkan Skill dengan Technical Book",
+            text: "Pelajari dan praktikkan skill teknis dalam berbagai industri dengan Technical Book Riselearn",
+          },
+          {
+            id: 3,
+            title: "The product development life cycle",
+            titlepage: "Praktikkan Skill dengan Technical Book",
+            text: "Pelajari dan praktikkan skill teknis dalam berbagai industri dengan Technical Book Riselearn",
+          },
         ],
       },
       {
@@ -564,9 +819,24 @@ export const Products = [
         judul: "Universal design, inclusive design, and equity-focused design",
         isClicked: false,
         materi: [
-          "The basics of user experience design",
-          "Jobs in the field of user experience",
-          "The product development life cycle",
+          {
+            id: 1,
+            title: "The basics of user experience design",
+            titlepage: "Praktikkan Skill dengan Technical Book",
+            text: "Pelajari dan praktikkan skill teknis dalam berbagai industri dengan Technical Book Riselearn",
+          },
+          {
+            id: 2,
+            title: "Jobs in the field of user experience",
+            titlepage: "Praktikkan Skill dengan Technical Book",
+            text: "Pelajari dan praktikkan skill teknis dalam berbagai industri dengan Technical Book Riselearn",
+          },
+          {
+            id: 3,
+            title: "The product development life cycle",
+            titlepage: "Praktikkan Skill dengan Technical Book",
+            text: "Pelajari dan praktikkan skill teknis dalam berbagai industri dengan Technical Book Riselearn",
+          },
         ],
       },
       {
@@ -574,9 +844,24 @@ export const Products = [
         judul: "Introduction to design sprints",
         isClicked: false,
         materi: [
-          "The basics of user experience design",
-          "Jobs in the field of user experience",
-          "The product development life cycle",
+          {
+            id: 1,
+            title: "The basics of user experience design",
+            titlepage: "Praktikkan Skill dengan Technical Book",
+            text: "Pelajari dan praktikkan skill teknis dalam berbagai industri dengan Technical Book Riselearn",
+          },
+          {
+            id: 2,
+            title: "Jobs in the field of user experience",
+            titlepage: "Praktikkan Skill dengan Technical Book",
+            text: "Pelajari dan praktikkan skill teknis dalam berbagai industri dengan Technical Book Riselearn",
+          },
+          {
+            id: 3,
+            title: "The product development life cycle",
+            titlepage: "Praktikkan Skill dengan Technical Book",
+            text: "Pelajari dan praktikkan skill teknis dalam berbagai industri dengan Technical Book Riselearn",
+          },
         ],
       },
       {
@@ -584,9 +869,24 @@ export const Products = [
         judul: "Introduction to UX research",
         isClicked: false,
         materi: [
-          "The basics of user experience design",
-          "Jobs in the field of user experience",
-          "The product development life cycle",
+          {
+            id: 1,
+            title: "The basics of user experience design",
+            titlepage: "Praktikkan Skill dengan Technical Book",
+            text: "Pelajari dan praktikkan skill teknis dalam berbagai industri dengan Technical Book Riselearn",
+          },
+          {
+            id: 2,
+            title: "Jobs in the field of user experience",
+            titlepage: "Praktikkan Skill dengan Technical Book",
+            text: "Pelajari dan praktikkan skill teknis dalam berbagai industri dengan Technical Book Riselearn",
+          },
+          {
+            id: 3,
+            title: "The product development life cycle",
+            titlepage: "Praktikkan Skill dengan Technical Book",
+            text: "Pelajari dan praktikkan skill teknis dalam berbagai industri dengan Technical Book Riselearn",
+          },
         ],
       },
     ],
@@ -682,9 +982,24 @@ export const Products = [
           "Introduction to Course 1: Foundations of User Experience Design",
         isClicked: false,
         materi: [
-          "The basics of user experience design",
-          "Jobs in the field of user experience",
-          "The product development life cycle",
+          {
+            id: 1,
+            title: "The basics of user experience design",
+            titlepage: "Praktikkan Skill dengan Technical Book",
+            text: "Pelajari dan praktikkan skill teknis dalam berbagai industri dengan Technical Book Riselearn",
+          },
+          {
+            id: 2,
+            title: "Jobs in the field of user experience",
+            titlepage: "Praktikkan Skill dengan Technical Book",
+            text: "Pelajari dan praktikkan skill teknis dalam berbagai industri dengan Technical Book Riselearn",
+          },
+          {
+            id: 3,
+            title: "The product development life cycle",
+            titlepage: "Praktikkan Skill dengan Technical Book",
+            text: "Pelajari dan praktikkan skill teknis dalam berbagai industri dengan Technical Book Riselearn",
+          },
         ],
       },
       {
@@ -692,9 +1007,24 @@ export const Products = [
         judul: "Universal design, inclusive design, and equity-focused design",
         isClicked: false,
         materi: [
-          "The basics of user experience design",
-          "Jobs in the field of user experience",
-          "The product development life cycle",
+          {
+            id: 1,
+            title: "The basics of user experience design",
+            titlepage: "Praktikkan Skill dengan Technical Book",
+            text: "Pelajari dan praktikkan skill teknis dalam berbagai industri dengan Technical Book Riselearn",
+          },
+          {
+            id: 2,
+            title: "Jobs in the field of user experience",
+            titlepage: "Praktikkan Skill dengan Technical Book",
+            text: "Pelajari dan praktikkan skill teknis dalam berbagai industri dengan Technical Book Riselearn",
+          },
+          {
+            id: 3,
+            title: "The product development life cycle",
+            titlepage: "Praktikkan Skill dengan Technical Book",
+            text: "Pelajari dan praktikkan skill teknis dalam berbagai industri dengan Technical Book Riselearn",
+          },
         ],
       },
       {
@@ -702,9 +1032,24 @@ export const Products = [
         judul: "Introduction to design sprints",
         isClicked: false,
         materi: [
-          "The basics of user experience design",
-          "Jobs in the field of user experience",
-          "The product development life cycle",
+          {
+            id: 1,
+            title: "The basics of user experience design",
+            titlepage: "Praktikkan Skill dengan Technical Book",
+            text: "Pelajari dan praktikkan skill teknis dalam berbagai industri dengan Technical Book Riselearn",
+          },
+          {
+            id: 2,
+            title: "Jobs in the field of user experience",
+            titlepage: "Praktikkan Skill dengan Technical Book",
+            text: "Pelajari dan praktikkan skill teknis dalam berbagai industri dengan Technical Book Riselearn",
+          },
+          {
+            id: 3,
+            title: "The product development life cycle",
+            titlepage: "Praktikkan Skill dengan Technical Book",
+            text: "Pelajari dan praktikkan skill teknis dalam berbagai industri dengan Technical Book Riselearn",
+          },
         ],
       },
       {
@@ -712,9 +1057,24 @@ export const Products = [
         judul: "Introduction to UX research",
         isClicked: false,
         materi: [
-          "The basics of user experience design",
-          "Jobs in the field of user experience",
-          "The product development life cycle",
+          {
+            id: 1,
+            title: "The basics of user experience design",
+            titlepage: "Praktikkan Skill dengan Technical Book",
+            text: "Pelajari dan praktikkan skill teknis dalam berbagai industri dengan Technical Book Riselearn",
+          },
+          {
+            id: 2,
+            title: "Jobs in the field of user experience",
+            titlepage: "Praktikkan Skill dengan Technical Book",
+            text: "Pelajari dan praktikkan skill teknis dalam berbagai industri dengan Technical Book Riselearn",
+          },
+          {
+            id: 3,
+            title: "The product development life cycle",
+            titlepage: "Praktikkan Skill dengan Technical Book",
+            text: "Pelajari dan praktikkan skill teknis dalam berbagai industri dengan Technical Book Riselearn",
+          },
         ],
       },
     ],
@@ -781,9 +1141,24 @@ export const Products = [
           "Introduction to Course 1: Foundations of User Experience Design",
         isClicked: false,
         materi: [
-          "The basics of user experience design",
-          "Jobs in the field of user experience",
-          "The product development life cycle",
+          {
+            id: 1,
+            title: "The basics of user experience design",
+            titlepage: "Praktikkan Skill dengan Technical Book",
+            text: "Pelajari dan praktikkan skill teknis dalam berbagai industri dengan Technical Book Riselearn",
+          },
+          {
+            id: 2,
+            title: "Jobs in the field of user experience",
+            titlepage: "Praktikkan Skill dengan Technical Book",
+            text: "Pelajari dan praktikkan skill teknis dalam berbagai industri dengan Technical Book Riselearn",
+          },
+          {
+            id: 3,
+            title: "The product development life cycle",
+            titlepage: "Praktikkan Skill dengan Technical Book",
+            text: "Pelajari dan praktikkan skill teknis dalam berbagai industri dengan Technical Book Riselearn",
+          },
         ],
       },
       {
@@ -791,9 +1166,24 @@ export const Products = [
         judul: "Universal design, inclusive design, and equity-focused design",
         isClicked: false,
         materi: [
-          "The basics of user experience design",
-          "Jobs in the field of user experience",
-          "The product development life cycle",
+          {
+            id: 1,
+            title: "The basics of user experience design",
+            titlepage: "Praktikkan Skill dengan Technical Book",
+            text: "Pelajari dan praktikkan skill teknis dalam berbagai industri dengan Technical Book Riselearn",
+          },
+          {
+            id: 2,
+            title: "Jobs in the field of user experience",
+            titlepage: "Praktikkan Skill dengan Technical Book",
+            text: "Pelajari dan praktikkan skill teknis dalam berbagai industri dengan Technical Book Riselearn",
+          },
+          {
+            id: 3,
+            title: "The product development life cycle",
+            titlepage: "Praktikkan Skill dengan Technical Book",
+            text: "Pelajari dan praktikkan skill teknis dalam berbagai industri dengan Technical Book Riselearn",
+          },
         ],
       },
       {
@@ -801,9 +1191,24 @@ export const Products = [
         judul: "Introduction to design sprints",
         isClicked: false,
         materi: [
-          "The basics of user experience design",
-          "Jobs in the field of user experience",
-          "The product development life cycle",
+          {
+            id: 1,
+            title: "The basics of user experience design",
+            titlepage: "Praktikkan Skill dengan Technical Book",
+            text: "Pelajari dan praktikkan skill teknis dalam berbagai industri dengan Technical Book Riselearn",
+          },
+          {
+            id: 2,
+            title: "Jobs in the field of user experience",
+            titlepage: "Praktikkan Skill dengan Technical Book",
+            text: "Pelajari dan praktikkan skill teknis dalam berbagai industri dengan Technical Book Riselearn",
+          },
+          {
+            id: 3,
+            title: "The product development life cycle",
+            titlepage: "Praktikkan Skill dengan Technical Book",
+            text: "Pelajari dan praktikkan skill teknis dalam berbagai industri dengan Technical Book Riselearn",
+          },
         ],
       },
       {
@@ -811,9 +1216,24 @@ export const Products = [
         judul: "Introduction to UX research",
         isClicked: false,
         materi: [
-          "The basics of user experience design",
-          "Jobs in the field of user experience",
-          "The product development life cycle",
+          {
+            id: 1,
+            title: "The basics of user experience design",
+            titlepage: "Praktikkan Skill dengan Technical Book",
+            text: "Pelajari dan praktikkan skill teknis dalam berbagai industri dengan Technical Book Riselearn",
+          },
+          {
+            id: 2,
+            title: "Jobs in the field of user experience",
+            titlepage: "Praktikkan Skill dengan Technical Book",
+            text: "Pelajari dan praktikkan skill teknis dalam berbagai industri dengan Technical Book Riselearn",
+          },
+          {
+            id: 3,
+            title: "The product development life cycle",
+            titlepage: "Praktikkan Skill dengan Technical Book",
+            text: "Pelajari dan praktikkan skill teknis dalam berbagai industri dengan Technical Book Riselearn",
+          },
         ],
       },
     ],
@@ -909,9 +1329,24 @@ export const Products = [
           "Introduction to Course 1: Foundations of User Experience Design",
         isClicked: false,
         materi: [
-          "The basics of user experience design",
-          "Jobs in the field of user experience",
-          "The product development life cycle",
+          {
+            id: 1,
+            title: "The basics of user experience design",
+            titlepage: "Praktikkan Skill dengan Technical Book",
+            text: "Pelajari dan praktikkan skill teknis dalam berbagai industri dengan Technical Book Riselearn",
+          },
+          {
+            id: 2,
+            title: "Jobs in the field of user experience",
+            titlepage: "Praktikkan Skill dengan Technical Book",
+            text: "Pelajari dan praktikkan skill teknis dalam berbagai industri dengan Technical Book Riselearn",
+          },
+          {
+            id: 3,
+            title: "The product development life cycle",
+            titlepage: "Praktikkan Skill dengan Technical Book",
+            text: "Pelajari dan praktikkan skill teknis dalam berbagai industri dengan Technical Book Riselearn",
+          },
         ],
       },
       {
@@ -919,9 +1354,24 @@ export const Products = [
         judul: "Universal design, inclusive design, and equity-focused design",
         isClicked: false,
         materi: [
-          "The basics of user experience design",
-          "Jobs in the field of user experience",
-          "The product development life cycle",
+          {
+            id: 1,
+            title: "The basics of user experience design",
+            titlepage: "Praktikkan Skill dengan Technical Book",
+            text: "Pelajari dan praktikkan skill teknis dalam berbagai industri dengan Technical Book Riselearn",
+          },
+          {
+            id: 2,
+            title: "Jobs in the field of user experience",
+            titlepage: "Praktikkan Skill dengan Technical Book",
+            text: "Pelajari dan praktikkan skill teknis dalam berbagai industri dengan Technical Book Riselearn",
+          },
+          {
+            id: 3,
+            title: "The product development life cycle",
+            titlepage: "Praktikkan Skill dengan Technical Book",
+            text: "Pelajari dan praktikkan skill teknis dalam berbagai industri dengan Technical Book Riselearn",
+          },
         ],
       },
       {
@@ -929,9 +1379,24 @@ export const Products = [
         judul: "Introduction to design sprints",
         isClicked: false,
         materi: [
-          "The basics of user experience design",
-          "Jobs in the field of user experience",
-          "The product development life cycle",
+          {
+            id: 1,
+            title: "The basics of user experience design",
+            titlepage: "Praktikkan Skill dengan Technical Book",
+            text: "Pelajari dan praktikkan skill teknis dalam berbagai industri dengan Technical Book Riselearn",
+          },
+          {
+            id: 2,
+            title: "Jobs in the field of user experience",
+            titlepage: "Praktikkan Skill dengan Technical Book",
+            text: "Pelajari dan praktikkan skill teknis dalam berbagai industri dengan Technical Book Riselearn",
+          },
+          {
+            id: 3,
+            title: "The product development life cycle",
+            titlepage: "Praktikkan Skill dengan Technical Book",
+            text: "Pelajari dan praktikkan skill teknis dalam berbagai industri dengan Technical Book Riselearn",
+          },
         ],
       },
       {
@@ -939,9 +1404,24 @@ export const Products = [
         judul: "Introduction to UX research",
         isClicked: false,
         materi: [
-          "The basics of user experience design",
-          "Jobs in the field of user experience",
-          "The product development life cycle",
+          {
+            id: 1,
+            title: "The basics of user experience design",
+            titlepage: "Praktikkan Skill dengan Technical Book",
+            text: "Pelajari dan praktikkan skill teknis dalam berbagai industri dengan Technical Book Riselearn",
+          },
+          {
+            id: 2,
+            title: "Jobs in the field of user experience",
+            titlepage: "Praktikkan Skill dengan Technical Book",
+            text: "Pelajari dan praktikkan skill teknis dalam berbagai industri dengan Technical Book Riselearn",
+          },
+          {
+            id: 3,
+            title: "The product development life cycle",
+            titlepage: "Praktikkan Skill dengan Technical Book",
+            text: "Pelajari dan praktikkan skill teknis dalam berbagai industri dengan Technical Book Riselearn",
+          },
         ],
       },
     ],
@@ -1037,9 +1517,24 @@ export const Products = [
           "Introduction to Course 1: Foundations of User Experience Design",
         isClicked: false,
         materi: [
-          "The basics of user experience design",
-          "Jobs in the field of user experience",
-          "The product development life cycle",
+          {
+            id: 1,
+            title: "The basics of user experience design",
+            titlepage: "Praktikkan Skill dengan Technical Book",
+            text: "Pelajari dan praktikkan skill teknis dalam berbagai industri dengan Technical Book Riselearn",
+          },
+          {
+            id: 2,
+            title: "Jobs in the field of user experience",
+            titlepage: "Praktikkan Skill dengan Technical Book",
+            text: "Pelajari dan praktikkan skill teknis dalam berbagai industri dengan Technical Book Riselearn",
+          },
+          {
+            id: 3,
+            title: "The product development life cycle",
+            titlepage: "Praktikkan Skill dengan Technical Book",
+            text: "Pelajari dan praktikkan skill teknis dalam berbagai industri dengan Technical Book Riselearn",
+          },
         ],
       },
       {
@@ -1047,9 +1542,24 @@ export const Products = [
         judul: "Universal design, inclusive design, and equity-focused design",
         isClicked: false,
         materi: [
-          "The basics of user experience design",
-          "Jobs in the field of user experience",
-          "The product development life cycle",
+          {
+            id: 1,
+            title: "The basics of user experience design",
+            titlepage: "Praktikkan Skill dengan Technical Book",
+            text: "Pelajari dan praktikkan skill teknis dalam berbagai industri dengan Technical Book Riselearn",
+          },
+          {
+            id: 2,
+            title: "Jobs in the field of user experience",
+            titlepage: "Praktikkan Skill dengan Technical Book",
+            text: "Pelajari dan praktikkan skill teknis dalam berbagai industri dengan Technical Book Riselearn",
+          },
+          {
+            id: 3,
+            title: "The product development life cycle",
+            titlepage: "Praktikkan Skill dengan Technical Book",
+            text: "Pelajari dan praktikkan skill teknis dalam berbagai industri dengan Technical Book Riselearn",
+          },
         ],
       },
       {
@@ -1057,9 +1567,24 @@ export const Products = [
         judul: "Introduction to design sprints",
         isClicked: false,
         materi: [
-          "The basics of user experience design",
-          "Jobs in the field of user experience",
-          "The product development life cycle",
+          {
+            id: 1,
+            title: "The basics of user experience design",
+            titlepage: "Praktikkan Skill dengan Technical Book",
+            text: "Pelajari dan praktikkan skill teknis dalam berbagai industri dengan Technical Book Riselearn",
+          },
+          {
+            id: 2,
+            title: "Jobs in the field of user experience",
+            titlepage: "Praktikkan Skill dengan Technical Book",
+            text: "Pelajari dan praktikkan skill teknis dalam berbagai industri dengan Technical Book Riselearn",
+          },
+          {
+            id: 3,
+            title: "The product development life cycle",
+            titlepage: "Praktikkan Skill dengan Technical Book",
+            text: "Pelajari dan praktikkan skill teknis dalam berbagai industri dengan Technical Book Riselearn",
+          },
         ],
       },
       {
@@ -1067,9 +1592,24 @@ export const Products = [
         judul: "Introduction to UX research",
         isClicked: false,
         materi: [
-          "The basics of user experience design",
-          "Jobs in the field of user experience",
-          "The product development life cycle",
+          {
+            id: 1,
+            title: "The basics of user experience design",
+            titlepage: "Praktikkan Skill dengan Technical Book",
+            text: "Pelajari dan praktikkan skill teknis dalam berbagai industri dengan Technical Book Riselearn",
+          },
+          {
+            id: 2,
+            title: "Jobs in the field of user experience",
+            titlepage: "Praktikkan Skill dengan Technical Book",
+            text: "Pelajari dan praktikkan skill teknis dalam berbagai industri dengan Technical Book Riselearn",
+          },
+          {
+            id: 3,
+            title: "The product development life cycle",
+            titlepage: "Praktikkan Skill dengan Technical Book",
+            text: "Pelajari dan praktikkan skill teknis dalam berbagai industri dengan Technical Book Riselearn",
+          },
         ],
       },
     ],

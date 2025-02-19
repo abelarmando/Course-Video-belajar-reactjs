@@ -7,7 +7,7 @@ import BodyLayouts from "../Components/Layouts/BodyLayouts";
 function Home() {
   return (
     <>
-      <Navbar text="Kategori ">
+      <Navbar text="Kategori">
         <Navbarlogin />
       </Navbar>
       <BodyLayouts />

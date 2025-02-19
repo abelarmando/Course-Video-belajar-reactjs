@@ -4,12 +4,15 @@ import Navbarlogin from "../Components/Fragments/Navbar/Navbarlogin";
 import Footer from "../Components/Fragments/Footer";
 import { useParams } from "react-router-dom";
 import { Products } from "../Components/Data/Data.jsx";
-
-import { useState } from "react";
+import { useProduct } from "../../store.js";
+import { useEffect, useState } from "react";
 
 function Produk() {
   const { id } = useParams();
   const [Newdata] = useState(Products.find((item) => item.id == id));
+  const findproduct = useProduct((state) => state.findproduct);
+
+  findproduct(id);
 
   return (
     <>
