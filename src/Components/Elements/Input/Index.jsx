@@ -18,7 +18,7 @@ export const InputForm = forwardRef(
 
         {name === "password" && (
           <img
-            src="./images/Icon/Icon/mdi_eye-off.svg"
+            src="/images/Icon/Icon/mdi_eye-off.svg"
             alt="eye"
             className="absolute right-3 top-1/2 cursor-pointer"
           />
@@ -28,9 +28,7 @@ export const InputForm = forwardRef(
   }
 );
 
-export function Input_nohp(props) {
-  const { name, title, codearea, bendera, placeholder } = props;
-
+export function Input_nohp({ name, title, codearea, bendera, placeholder }) {
   return (
     <div className="w-full">
       <label htmlFor={name}>{title}</label>

@@ -2,7 +2,7 @@ import axios from "axios";
 
 export const getAllUsers = (callback) => {
   axios
-    .get("https://67a327b631d0d3a6b7827732.mockapi.io/api/course/users")
+    .get(`${import.meta.env.VITE_API_USER}`)
     .then((res) => {
       callback(res.data);
     })
@@ -13,7 +13,29 @@ export const getAllUsers = (callback) => {
 
 export const postuser = (data) => {
   axios
-    .post("https://67a327b631d0d3a6b7827732.mockapi.io/api/course/users", data)
+    .post(`${import.meta.env.VITE_API_USER}`, data)
+    .then((res) => {
+      console.log(res);
+    })
+    .catch((err) => {
+      console.log(err);
+    });
+};
+
+export const deleteuser = (id) => {
+  axios
+    .delete(`${import.meta.env.VITE_API_USER}${id}`)
+    .then((res) => {
+      console.log(res);
+    })
+    .catch((err) => {
+      console.log(err);
+    });
+};
+
+export const updateuser = (id, data) => {
+  axios
+    .put(`${import.meta.env.VITE_API_USER}${id}`, data)
     .then((res) => {
       console.log(res);
     })

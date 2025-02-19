@@ -1,9 +1,11 @@
 import { useEffect, useState } from "react";
+import { useProduct } from "../../../store";
 
-function Course({ Course }) {
+function Course() {
+  const product = useProduct((state) => state.Product);
   const [x, setx] = useState();
   useEffect(() => {
-    setx(Course);
+    setx(product.course);
   }, [x]);
 
   const handleclick = (i) => {
@@ -13,11 +15,11 @@ function Course({ Course }) {
   return (
     <div className="border-[1px] border-[#3A35411F] rounded-md p-6 bg-white space-y-3">
       <h3>Kamu akan Memplejari</h3>
-      {Course.map((Course, i) => (
+      {product.course.map((product, i) => (
         <div className="space-y-3 cursor-pointer">
           <div key={i} onClick={() => handleclick(i)}>
             <p className="text-green-400 flex justify-between items-center">
-              {Course.judul}
+              {product.judul}
 
               <img
                 src="/images/Icon/Icon/Pagination/Bottom_Vector_Black.svg"
@@ -26,13 +28,13 @@ function Course({ Course }) {
             </p>
           </div>
 
-          {Course.materi.map((x) => (
+          {product.materi.map((x) => (
             <div
               className={` border-[1px] border-[#F1F1F1] rounded-md p-3 space-x-2 flex justify-between items-center ${
-                Course.isClicked ? "block" : "hidden"
+                product.isClicked ? "block" : "hidden"
               }`}
             >
-              <p>{x}</p>
+              <p>{x.title}</p>
               <div className="flex gap-2 max-md:hidden">
                 <img src="/images/Icon/Icon/Video.svg" alt="" />
                 <p>Video</p>

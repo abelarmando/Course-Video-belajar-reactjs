@@ -3,6 +3,7 @@ import Profile from "../Icon/Profile";
 import Bag from "../Icon/Bag";
 import Cart_tab from "../Fragments/Cart_tab";
 import MyClass_List from "../Fragments/List/MyClass_List";
+import Profile_Card from "../Fragments/Card/Profile_Card";
 function keteranganLayouts({ category }) {
   return (
     <div className="md:flex gap-5 max-md:space-y-6">
@@ -45,6 +46,7 @@ function keteranganLayouts({ category }) {
       </div>
       {category == "pesanan" && <Cart_tab />}
       {category == "myclass" && <MyClass_List />}
+      {category == "profile" && <Profile_Card />}
     </div>
   );
 }
