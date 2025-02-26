@@ -38,6 +38,7 @@ function MyClass_List() {
       {currentclass.map((item, i) => (
         <Card_Myclass
           key={i}
+          id={item.Product.id}
           img={item.Product.imgproduct}
           title={item.Product.title}
           text={item.Product.text}

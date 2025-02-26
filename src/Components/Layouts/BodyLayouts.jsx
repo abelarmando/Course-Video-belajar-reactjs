@@ -1,10 +1,21 @@
 import CardProduct from "../Fragments/Card/CardProduct";
 import Kategori_kelas from "../Fragments/Kategori_kelas";
 import Banner from "../Fragments/Banner";
-import { Products } from "../Data/Data.jsx";
-// import { Link } from "react-router-dom";
+import { useProduct } from "../../../store";
+import { useShallow } from "zustand/shallow";
+import { useEffect } from "react";
 
 function BodyLayouts() {
+  const { product, fetchProducts } = useProduct(
+    useShallow((state) => ({
+      product: state.product,
+      fetchProducts: state.fetchProducts,
+    }))
+  );
+  useEffect(() => {
+    fetchProducts();
+  }, []);
+
   return (
     <div className="py-16 px-[120px] space-y-16 max-md:px-5">
       <Banner
@@ -38,7 +49,7 @@ function BodyLayouts() {
         <Kategori_kelas />
 
         <div className="grid grid-cols-auto-fill gap-3 w-full ">
-          {Products.map((product, i) => (
+          {product.map((product, i) => (
             <CardProduct id={product.id} key={i}>
               <div className=" max-md:flex max-md:gap-3">
                 <CardProduct.Header img={product.imgproduct} />
