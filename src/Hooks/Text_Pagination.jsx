@@ -15,7 +15,7 @@ function Text_Pagination() {
       setaftercourse(courseid);
       setaftermateri(materiid);
       setbeforecourse(courseid - 1);
-      setaftermateri(materiid - 2);
+      setbeforemateri(materiid - 2);
       return;
     }
 

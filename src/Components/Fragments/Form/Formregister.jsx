@@ -1,17 +1,12 @@
-// import InputForm from "../Elements/Input/Index";
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import { Input_nohp, InputForm } from "../../Elements/Input/Index";
-import { getAllUsers, postuser } from "../../../services/users.function";
+import { postuser } from "../../../services/users.function";
 import AllUser from "../../../Hooks/AllUser";
 
 function FormRegister() {
-  const [input, setinput] = useState();
-  // const [user, setuser] = useState();
   const [inpemail, setinpemail] = useState();
   const [codeareanum] = useState(62);
   const users = AllUser();
-  // const codearea = document.getElementById("codearea");
-  // console.log(codearea);
 
   const handleregister = (e) => {
     e.preventDefault();
@@ -23,7 +18,7 @@ function FormRegister() {
       document.getElementById("password2").style.border = "1px solid red";
       document.getElementById("password1").style.border = "1px solid red";
     } else {
-      setinput({
+      postuser({
         name: e.target.text.value,
         email: e.target.email.value,
         handphone: { number: e.target.number.value, code: codeareanum },
@@ -36,11 +31,6 @@ function FormRegister() {
       window.location.href = "/login";
     }
   };
-  useEffect(() => {
-    if (!input) return;
-
-    postuser(input);
-  }, [input]);
 
   return (
     <form onSubmit={handleregister} className="w-full">
