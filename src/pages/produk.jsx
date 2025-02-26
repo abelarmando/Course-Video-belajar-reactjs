@@ -6,13 +6,15 @@ import { useParams } from "react-router-dom";
 import { Products } from "../Components/Data/Data.jsx";
 import { useProduct } from "../../store.js";
 import { useEffect, useState } from "react";
+import { use } from "react";
 
 function Produk() {
   const { id } = useParams();
   const [Newdata] = useState(Products.find((item) => item.id == id));
   const findproduct = useProduct((state) => state.findproduct);
-
-  findproduct(id);
+  useEffect(() => {
+    findproduct(id);
+  }, []);
 
   return (
     <>

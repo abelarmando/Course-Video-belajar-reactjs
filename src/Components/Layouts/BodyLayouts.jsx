@@ -15,6 +15,7 @@ function BodyLayouts() {
   useEffect(() => {
     fetchProducts();
   }, []);
+  console.log(product.length);
 
   return (
     <div className="py-16 px-[120px] space-y-16 max-md:px-5">
@@ -49,26 +50,27 @@ function BodyLayouts() {
         <Kategori_kelas />
 
         <div className="grid grid-cols-auto-fill gap-3 w-full ">
-          {product.map((product, i) => (
-            <CardProduct id={product.id} key={i}>
-              <div className=" max-md:flex max-md:gap-3">
-                <CardProduct.Header img={product.imgproduct} />
-                <CardProduct.Body
-                  title={product.title}
-                  author={product.author}
-                  position={product.position}
-                  work={product.work}
-                  imgprofile={product.imgprofile}
-                >
-                  {product.text}
-                </CardProduct.Body>
-              </div>
-              <CardProduct.Footer
-                rating={product.rating}
-                price={product.price}
-              />
-            </CardProduct>
-          ))}
+          {product.length > 0 &&
+            product.map((product, i) => (
+              <CardProduct id={product.id} key={i}>
+                <div className=" max-md:flex max-md:gap-3">
+                  <CardProduct.Header img={product.imgproduct} />
+                  <CardProduct.Body
+                    title={product.title}
+                    author={product.author}
+                    position={product.position}
+                    work={product.work}
+                    imgprofile={product.imgprofile}
+                  >
+                    {product.text}
+                  </CardProduct.Body>
+                </div>
+                <CardProduct.Footer
+                  rating={product.rating}
+                  price={product.price}
+                />
+              </CardProduct>
+            ))}
         </div>
       </div>
 

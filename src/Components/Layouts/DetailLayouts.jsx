@@ -7,10 +7,14 @@ import Keterangan_Course from "../Fragments/Keterangan/Keterangan_Course";
 import { Products } from "../Data/Data";
 import CardProduct from "../Fragments/Card/CardProduct";
 import { useProduct } from "../../../store";
+import { useParams } from "react-router-dom";
+import { useEffect } from "react";
 
 function DetailLayouts() {
-  const product = useProduct((state) => state.Product);
-  const newdata = Products.filter((item) => item.id !== product.id);
+  const { id } = useParams();
+  const product = useProduct((state) => state.product);
+
+  const newdata = Products.filter((item) => item.id !== id);
   let cardnumber = Math.floor(Math.random() * (Products.length - 3));
   let randomcard = newdata.slice(cardnumber, cardnumber + 3);
 
