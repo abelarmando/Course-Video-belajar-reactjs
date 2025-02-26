@@ -13,10 +13,7 @@ import Ubah_Metode from "./pages/ubah_metode.jsx";
 import Selesai from "./pages/selesai.jsx";
 import Keterangan from "./pages/keterangan.jsx";
 import Course from "./pages/course.jsx";
-<<<<<<< HEAD
-=======
 const islogin = localStorage.getItem("islogin");
->>>>>>> course
 
 const router = createBrowserRouter([
   {
