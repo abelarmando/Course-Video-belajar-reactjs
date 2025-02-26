@@ -3,7 +3,7 @@ import CourseVideo from "../Fragments/CourseVideo";
 
 function CourseLayouts({ idauthor, idcourse }) {
   return (
-    <div>
+    <>
       <div className="flex gap-0">
         <div className="w-full ">
           <CourseVideo />
@@ -12,7 +12,7 @@ function CourseLayouts({ idauthor, idcourse }) {
           <CourseMateri />
         </div>
       </div>
-    </div>
+    </>
   );
 }
 

@@ -1,3 +1,4 @@
+import { useNavigate } from "react-router-dom";
 import Book2 from "../../Icon/Book2";
 import Clock from "../../Icon/Clock";
 import Progress from "../Progress";
@@ -12,9 +13,14 @@ function Card_Myclass({
   moduleprogress,
   jumlahmodule,
   imgauthor,
+  id,
 }) {
+  const navigate = useNavigate();
   return (
-    <div className="border-[1px] border-[#F1F1F1] rounded-md">
+    <div
+      className="border-[1px] border-[#F1F1F1] rounded-md"
+      onClick={() => navigate(`/${id}/course/1/1`)}
+    >
       <div className="bg-[#E2FCD933] border-b-[1px] border-[#F1F1F1] py-4 px-5 flex items-center justify-between">
         <p>
           {moduleprogress} / {jumlahmodule}{" "}

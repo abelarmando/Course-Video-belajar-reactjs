@@ -1,30 +1,15 @@
-import { useParams } from "react-router-dom";
 import Navbar from "../Components/Fragments/Navbar/Navbar";
 import CourseLayouts from "../Components/Layouts/CourseLayouts";
-import { useCourse } from "../../store";
-import { useEffect } from "react";
+import Footer_Course from "../Components/Fragments/Footer/Footer_Course";
+import fetchProductsCourse from "../Hooks/FetchProductsCourse";
 
 function Course() {
-  const { id, course } = useParams();
-  const findproduct = useCourse((state) => state.findproduct);
-  const findcourse = useCourse((state) => state.findcourse);
-  const Materiid = useCourse((state) => state.Materiid);
-  const findmateri = useCourse((state) => state.findmateri);
-  const Courseid = useCourse((state) => state.Courseid);
-
-  useEffect(() => {
-    findproduct(id);
-    findcourse(course);
-    findmateri();
-    // findmateri();
-  }, [Materiid, Courseid]);
-  // console.log(Materi);
-
-  // console.log(Product);
+  fetchProductsCourse();
   return (
     <>
       <Navbar />
       <CourseLayouts />
+      <Footer_Course />
     </>
   );
 }

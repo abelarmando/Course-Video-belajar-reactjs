@@ -46,13 +46,13 @@ export const Products = [
             id: 1,
             title: "The basics of user experience design",
             titlepage: "Praktikkan Skill dengan Technical Book",
-            text: "Pelajari dan praktikkan skill teknis dalam berbagai industri dengan Technical Book Riselearn",
+            text: "1",
           },
           {
             id: 2,
             title: "Jobs in the field of user experience",
             titlepage: "Praktikkan Skill dengan Technical Book",
-            text: "Pelajari dan praktikkan skill teknis dalam berbagai industri dengan Technical Book Riselearn",
+            text: "2",
           },
           {
             id: 3,

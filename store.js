@@ -1,37 +1,48 @@
 import { create } from "zustand";
-import { Products } from "./src/Components/Data/Data";
+import axios from "axios";
 
 const useProduct = create((set) => ({
-  Product: [],
-  oldproduct: Products,
-  findproduct: (id) =>
-    set((state) => ({
-      Product: Products.find((item) => item.id == id),
-    })),
+  product: [],
+  findproduct: async (id) => {
+    try {
+      const response = await axios.get(
+        `${import.meta.env.VITE_API_PRODUTS}${id}`
+      );
+      set({ product: response.data });
+    } catch (error) {
+      console.error(error);
+    }
+  },
+
+  fetchProducts: async () => {
+    try {
+      const response = await axios.get(import.meta.env.VITE_API_PRODUTS);
+      set({ product: response.data });
+    } catch (error) {
+      console.error(error);
+    }
+  },
 }));
 
 const useCourse = create((set) => ({
   Product: [],
-  Course: [],
   Materi: [],
-  Courseid: 1,
-  Materiid: 1,
-  findproduct: (id) =>
+  findproduct: async (id) => {
+    try {
+      const response = await axios.get(
+        `${import.meta.env.VITE_API_PRODUTS}${id}`
+      );
+      set({ Product: response.data });
+    } catch (error) {
+      console.error(error);
+    }
+  },
+  findmateri: (courseid, materiid) =>
     set((state) => ({
-      Product: Products.find((item) => item.id == id),
+      Materi: state.Product.course[courseid - 1].materi.find(
+        (item) => item.id == materiid
+      ),
     })),
-  setcourseid: (id) => set((state) => ({ Courseid: id })),
-  findcourse: (id) =>
-    set((state) => ({
-      Course: state.Product.course.find((item) => item.id == id),
-    })),
-
-  findmateri: () =>
-    set((state) => ({
-      Materi: state.Course.materi.find((item) => item.id == state.Materiid),
-    })),
-
-  setmaterid: (id) => set((state) => ({ Materiid: id })),
 }));
 
 export { useProduct, useCourse };

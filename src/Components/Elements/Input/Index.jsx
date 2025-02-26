@@ -18,7 +18,7 @@ export const InputForm = forwardRef(
 
         {name === "password" && (
           <img
-            src="./images/Icon/Icon/mdi_eye-off.svg"
+            src="/images/Icon/Icon/mdi_eye-off.svg"
             alt="eye"
             className="absolute right-3 top-1/2 cursor-pointer"
           />

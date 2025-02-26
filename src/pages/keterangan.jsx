@@ -10,7 +10,6 @@ function keterangan() {
   return (
     <div className="h-screen md:flex flex-col ">
       <Navbar text="Kategori">
-        <NavbarImg />
         <Navbarlogin />
       </Navbar>
 
