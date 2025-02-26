@@ -6,12 +6,7 @@ import AllUser from "../../../Hooks/AllUser";
 function FormRegister() {
   const [inpemail, setinpemail] = useState();
   const [codeareanum] = useState(62);
-<<<<<<< HEAD
-  // const codearea = document.getElementById("codearea");
-  // console.log(codearea);
-=======
   const users = AllUser();
->>>>>>> course
 
   const handleregister = (e) => {
     e.preventDefault();
