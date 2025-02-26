@@ -6,6 +6,7 @@ function CourseVideo() {
   const [play, setplay] = useState(false);
   const Materi = useCourse((state) => state.Materi);
   const Product = useCourse((state) => state.Product);
+  // console.log(Product.course[1 - 1].materi.find((item) => item.id == 1));
 
   return (
     <div>

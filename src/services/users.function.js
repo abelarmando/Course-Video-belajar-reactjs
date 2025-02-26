@@ -7,7 +7,7 @@ export const getAllUsers = (callback) => {
       callback(res.data);
     })
     .catch((err) => {
-      console.log(err);
+      console.error(err);
     });
 };
 
@@ -18,7 +18,7 @@ export const postuser = (data) => {
       console.log(res);
     })
     .catch((err) => {
-      console.log(err);
+      console.error(err);
     });
 };
 
@@ -29,7 +29,7 @@ export const deleteuser = (id) => {
       console.log(res);
     })
     .catch((err) => {
-      console.log(err);
+      console.error(err);
     });
 };
 
@@ -40,6 +40,6 @@ export const updateuser = (id, data) => {
       console.log(res);
     })
     .catch((err) => {
-      console.log(err);
+      console.error(err);
     });
 };
