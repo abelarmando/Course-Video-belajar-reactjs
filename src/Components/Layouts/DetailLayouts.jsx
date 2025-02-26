@@ -13,10 +13,6 @@ function DetailLayouts() {
   const newdata = Products.filter((item) => item.id !== product.id);
   let cardnumber = Math.floor(Math.random() * (Products.length - 3));
   let randomcard = newdata.slice(cardnumber, cardnumber + 3);
-<<<<<<< HEAD
-=======
-  console.log(product);
->>>>>>> course
 
   return (
     <div className="space-y-5">
